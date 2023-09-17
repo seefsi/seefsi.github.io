@@ -33,7 +33,15 @@
   <link href="/favicon.ico" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Finale" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  
+  <link href="https://fonts.lug.ustc.edu.cn/css?family=Lato|Rubik" rel="stylesheet">
+  <script src="/js/pangu-407.min.js"></script>
 <meta name="generator" content="Hexo 6.3.0"></head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
 
 
 <body>
@@ -49,6 +57,14 @@
   </div>
   <nav class="site-navigation">
     <ul>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/about">关于</a></li>
+      
+        <li><a href="/atom.xml">订阅</a></li>
       
     </ul>
   </nav>
@@ -79,6 +95,37 @@
   <div class="article-content">
     <div class="entry">
       
+        
+
+<script type="text/javascript">
+    function convertRemToPixels(rem) {    
+        return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+    }
+    window.onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > convertRemToPixels(40)) {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'visible';
+        } else {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'hidden';
+        }
+    }
+</script>
+
+
+<div id="toc" class="toc-article">
+      <div class="toc-content">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F"><span class="toc-text">文件系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Snapshot-based-not-delta-based"><span class="toc-text">Snapshot-based, not delta-based</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Objects"><span class="toc-text">Objects</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#blob-object"><span class="toc-text">blob object</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tree-object"><span class="toc-text">tree object</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#commit-object"><span class="toc-text">commit object</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tag-object"><span class="toc-text">tag object</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Refs"><span class="toc-text">Refs</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#branch"><span class="toc-text">branch</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HEAD"><span class="toc-text">HEAD</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tag"><span class="toc-text">tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#remotes"><span class="toc-text">remotes</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E6%93%8D%E4%BD%9C"><span class="toc-text">命令操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#merge"><span class="toc-text">merge</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Fast-Forward-Merge%EF%BC%9A%E5%BF%AB%E8%BF%9B%E5%BC%8F%E5%90%88%E5%B9%B6"><span class="toc-text">Fast-Forward Merge：快进式合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Three-Way-Diff-Merge%EF%BC%9A%E4%B8%89%E8%B7%AF%E5%90%88%E5%B9%B6"><span class="toc-text">Three-Way Diff Merge：三路合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Recursive-Three-Way-Diff-Merge%EF%BC%9A%E9%80%92%E5%BD%92%E4%B8%89%E8%B7%AF%E5%90%88%E5%B9%B6"><span class="toc-text">Recursive Three-Way Diff Merge：递归三路合并</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E8%B7%AF%E5%90%88%E5%B9%B6%E6%9D%A5%E5%B8%A6%E7%9A%84%E9%99%B7%E9%98%B1"><span class="toc-text">三路合并来带的陷阱</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rebase"><span class="toc-text">rebase</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-text">基本用法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#rebase-%E7%9A%84%E5%8E%9F%E7%90%86"><span class="toc-text">rebase 的原理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E5%BD%93%E5%89%8D%E5%88%86%E6%94%AF%E7%9A%84%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95"><span class="toc-text">修改当前分支的历史记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%88%91%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E9%87%8D%E5%86%99%E5%8E%86%E5%8F%B2%EF%BC%9F"><span class="toc-text">如何判断我是否可以重写历史？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E6%88%91%E6%98%AF%E5%90%A6%E5%BA%94%E8%AF%A5%E9%87%8D%E5%86%99%E5%8E%86%E5%8F%B2%EF%BC%9F"><span class="toc-text">如何判断我是否应该重写历史？</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%97%AE%E7%AD%94%E7%8E%AF%E8%8A%82"><span class="toc-text">问答环节</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E2%80%8B%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="toc-text">1. ​最佳实践</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E2%80%8B%E8%AF%AF%E6%8F%90%E4%BA%A4%E7%9A%84%E5%A4%A7%E6%96%87%E4%BB%B6%EF%BC%8C%E4%BB%8E-git-%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95%E4%B8%AD%E5%AE%8C%E5%85%A8%E7%A7%BB%E9%99%A4%E7%9A%84%E6%96%B9%E6%B3%95"><span class="toc-text">2. ​误提交的大文件，从 .git 历史记录中完全移除的方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-stash-%E6%B2%A1%E6%B3%95%E5%B0%86%E6%96%B0%E5%A2%9E%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%80%E8%B5%B7%E5%AD%98%E8%B5%B7%E6%9D%A5"><span class="toc-text">3. stash 没法将新增的文件一起存起来</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-text">参考资料</span></a></li></ol>
+      </div>
+</div>
+<style>
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+
+
         <blockquote>
 <p>这是我最近在团队内做的一个关于 Git 的分享，反响还不错，故用此文记录。</p>
 </blockquote>
@@ -265,8 +312,29 @@
 
 
 
+	<section id="comment" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
 
-
+	<script type="text/javascript">
+	var disqus_shortname = 'kidhaibara';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
 
 
 
@@ -275,8 +343,8 @@
 
     <footer class="site-footer">
   <p class="site-info">
-    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
-    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    Deployed by <a href="https://github.com/kaedea/notion-down" target="_blank">notion-down</a> and
+    Theme by <a href="https://github.com/kaedea/hexo-theme-hacker" target="_blank">hexo-theme-hacker</a>
     </br>
     
     &copy; 2023 Seefsi
@@ -284,7 +352,17 @@
   </p>
 </footer>
     
-    
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'G-J38N5N288S', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
   </div>
 </div>
 </body>

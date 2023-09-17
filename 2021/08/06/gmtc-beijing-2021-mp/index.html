@@ -15,7 +15,7 @@
 
   
   
-  <meta name="keywords" content="React,Taro,GMTC,小程序">
+  <meta name="keywords" content="Taro,React,GMTC,小程序">
   
 
   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
@@ -33,7 +33,15 @@
   <link href="/favicon.ico" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Finale" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  
+  <link href="https://fonts.lug.ustc.edu.cn/css?family=Lato|Rubik" rel="stylesheet">
+  <script src="/js/pangu-407.min.js"></script>
 <meta name="generator" content="Hexo 6.3.0"></head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
 
 
 <body>
@@ -49,6 +57,14 @@
   </div>
   <nav class="site-navigation">
     <ul>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/about">关于</a></li>
+      
+        <li><a href="/atom.xml">订阅</a></li>
       
     </ul>
   </nav>
@@ -79,6 +95,37 @@
   <div class="article-content">
     <div class="entry">
       
+        
+
+<script type="text/javascript">
+    function convertRemToPixels(rem) {    
+        return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+    }
+    window.onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > convertRemToPixels(40)) {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'visible';
+        } else {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'hidden';
+        }
+    }
+</script>
+
+
+<div id="toc" class="toc-article">
+      <div class="toc-content">
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%AC%E5%96%9C%E8%B7%A8%E7%AB%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5"><span class="toc-text">京喜跨端小程序开发实践</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF"><span class="toc-text">项目背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B7%A8%E7%AB%AF%E5%AE%9E%E8%B7%B5"><span class="toc-text">跨端实践</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A6%96%E9%A1%B5%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-text">首页性能优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8"><span class="toc-text">虚拟列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%8E%E7%AB%AF%E6%9C%BA%E9%99%8D%E7%BA%A7"><span class="toc-text">低端机降级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%93%E9%AA%8C%E8%AF%84%E5%88%86"><span class="toc-text">体验评分</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96"><span class="toc-text">代码体积优化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E7%9B%91%E6%8E%A7"><span class="toc-text">系统监控</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Q-A-%E7%8E%AF%E8%8A%82"><span class="toc-text">Q&amp;A 环节</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%80%83"><span class="toc-text">思考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%9A%E5%8A%A1"><span class="toc-text">业务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%A8%E7%AB%AF"><span class="toc-text">跨端</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E5%BB%BA"><span class="toc-text">构建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%A7%E8%83%BD"><span class="toc-text">性能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%91%E6%8E%A7"><span class="toc-text">监控</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%99%BA%E8%83%BD%E7%94%9F%E6%88%90%E4%BA%91%E7%AB%AF%E4%B8%80%E4%BD%93%E4%BB%A3%E7%A0%81%EF%BC%8C%E6%8F%90%E5%8D%87%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87"><span class="toc-text">智能生成云端一体代码，提升小程序开发效率</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D-%E5%90%8E%E7%AB%AF%E5%8D%8F%E5%90%8C%E6%A8%A1%E5%BC%8F%E6%BC%94%E5%8F%98"><span class="toc-text">前&#x2F;后端协同模式演变</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BA%91%E5%BC%80%E5%8F%91%E7%9A%84%E5%85%88%E8%BF%9B%E6%80%A7%E5%92%8C%E5%B1%80%E9%99%90%E6%80%A7"><span class="toc-text">小程序云开发的先进性和局限性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#uniCloud-%E7%9A%84%E6%94%B9%E8%BF%9B%E6%8E%A2%E7%B4%A2"><span class="toc-text">uniCloud 的改进探索</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%99%BA%E8%83%BD%E7%94%9F%E6%88%90%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81-Schema2Code"><span class="toc-text">智能生成小程序代码(Schema2Code)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AA%E6%9D%A5%E7%9A%84%E8%BD%AE%E5%AD%90%E7%94%9F%E6%80%81"><span class="toc-text">未来的轮子生态</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Q-A-%E7%8E%AF%E8%8A%82-1"><span class="toc-text">Q&amp;A 环节</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%80%83-1"><span class="toc-text">思考</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%BB%B4%E6%BB%B4%E5%87%BA%E8%A1%8C%E5%9F%BA%E4%BA%8E-Mpx-%E7%9A%84%E5%A4%8D%E6%9D%82%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="toc-text">滴滴出行基于 Mpx 的复杂小程序解决方案</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Mpx-%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E6%A6%82%E8%A7%88"><span class="toc-text">Mpx 小程序框架概览</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BC%98%E5%85%88%E7%9A%84%E5%A2%9E%E5%BC%BA%E5%9E%8B%E8%B7%A8%E7%AB%AF%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6"><span class="toc-text">小程序优先的增强型跨端开发框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%9A%E5%86%85%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E5%BC%82%E5%90%8C%E5%AF%B9%E6%AF%94-%E6%80%A7%E8%83%BD%E4%B8%8E%E6%95%88%E7%8E%87%E7%9A%84%E6%9D%83%E8%A1%A1"><span class="toc-text">业内小程序框架异同对比 - 性能与效率的权衡</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-%E5%85%A8%E5%B1%80%E6%9E%B6%E6%9E%84"><span class="toc-text">Mpx 全局架构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-%E6%94%AF%E6%8C%81%E8%83%BD%E5%8A%9B%E6%A6%82%E8%A7%88"><span class="toc-text">Mpx 支持能力概览</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5"><span class="toc-text">Mpx 使用情况</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E4%B8%8E%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96"><span class="toc-text">数据响应与性能优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E7%BC%96%E7%A8%8B"><span class="toc-text">数据响应编程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E5%AE%9E%E7%8E%B0"><span class="toc-text">Mpx 数据响应实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%93%8D%E5%BA%94%E4%B8%8B%E7%9A%84-setData-%E4%BC%98%E5%8C%96"><span class="toc-text">数据响应下的 setData 优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E-render-%E5%87%BD%E6%95%B0%E7%9A%84-setData-%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88"><span class="toc-text">基于 render 函数的 setData 优化方案</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#render-%E5%87%BD%E6%95%B0%E7%94%9F%E6%88%90%E6%B5%81%E7%A8%8B"><span class="toc-text">render 函数生成流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-setData-%E4%BC%98%E5%8C%96%E6%95%88%E6%9E%9C"><span class="toc-text">Mpx setData 优化效果</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BC%96%E8%AF%91%E6%9E%84%E5%BB%BA%E4%B8%8E%E5%8C%85%E4%BD%93%E7%A7%AF%E4%BC%98%E5%8C%96"><span class="toc-text">编译构建与包体积优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Mpx-%E7%BC%96%E8%AF%91%E6%9E%84%E5%BB%BA"><span class="toc-text">Mpx 编译构建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B5%84%E6%BA%90%E4%BE%9D%E8%B5%96%E6%A0%91"><span class="toc-text">小程序资源依赖树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#npm-%E6%94%AF%E6%8C%81"><span class="toc-text">npm 支持</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%86%E5%8C%85%E6%9E%84%E5%BB%BA"><span class="toc-text">分包构建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8C%85%E4%BD%93%E7%A7%AF%E5%88%86%E6%9E%90"><span class="toc-text">小程序包体积分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%B7%A8%E7%AB%AF"><span class="toc-text">小程序跨端</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mpx-%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%94%AF%E6%8C%81"><span class="toc-text">Mpx 多语言支持</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B1%95%E6%9C%9B%E4%B8%8E%E6%9C%AA%E6%9D%A5"><span class="toc-text">展望与未来</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Q-A-%E7%8E%AF%E8%8A%82-2"><span class="toc-text">Q&amp;A 环节</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%80%83-2"><span class="toc-text">思考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E6%BC%AB%E8%B0%88"><span class="toc-text">小程序框架设计漫谈</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8D%E7%BC%96%E8%AF%91%E5%9E%8B%E6%A1%86%E6%9E%B6"><span class="toc-text">重编译型框架</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8D%E8%BF%90%E8%A1%8C%E6%97%B6%E6%A1%86%E6%9E%B6"><span class="toc-text">重运行时框架</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%86%8D%E8%B0%88-Mpx"><span class="toc-text">再谈 Mpx</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8C%85%E4%BD%93%E7%A7%AF%E5%88%86%E6%9E%90"><span class="toc-text">包体积分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8A%96%E9%9F%B3%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%89%8D%E7%AB%AF%E6%B8%B2%E6%9F%93%E6%A1%86%E6%9E%B6"><span class="toc-text">抖音小程序前端渲染框架</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B8%B2%E6%9F%93%E8%83%8C%E6%99%AF%E4%BB%8B%E7%BB%8D"><span class="toc-text">小程序渲染背景介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%96%E9%9F%B3%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-text">抖音小程序是什么?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E6%9E%B6%E6%9E%84"><span class="toc-text">小程序运行时架构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%B5%81%E7%A8%8B"><span class="toc-text">小程序运行流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B8%B2%E6%9F%93%E8%83%8C%E6%99%AF"><span class="toc-text">小程序渲染背景</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%80%9D%E8%80%83"><span class="toc-text">框架设计与思考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E7%94%A8XXX%EF%BC%9F"><span class="toc-text">为什么不用XXX？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A1%86%E6%9E%B6%E8%AE%BE%E8%AE%A1%E8%BF%B7%E6%80%9D"><span class="toc-text">框架设计迷思</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%91%E4%BB%AC%E7%9A%84%E9%80%89%E6%8B%A9"><span class="toc-text">我们的选择</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B2%E6%9F%93%E4%BC%98%E5%8C%96%E6%8A%80%E5%B7%A7"><span class="toc-text">渲染优化技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#ChildFlag"><span class="toc-text">ChildFlag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VNode-Immutability"><span class="toc-text">VNode Immutability</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Benchmark"><span class="toc-text">Benchmark</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E5%B7%A5%E5%85%B7%E4%B8%8E%E8%B0%83%E4%BC%98"><span class="toc-text">性能工具与调优</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%80%83-3"><span class="toc-text">思考</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E7%BB%93%E5%B0%BE"><span class="toc-text">写在结尾</span></a></li></ol>
+      </div>
+</div>
+<style>
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+
+
         <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>七月初有幸参加了 GMTC 北京 2021 小程序开发实践专场，一共听了四个演讲主题，分别是：</p>
 <ul>
 <li>京喜跨端小程序开发实践</li>
@@ -435,7 +482,7 @@
 
     <span class="post-tags">
       <i class="icon-tags"></i>
-        <a href="/tags/React/">React</a><a href="/tags/Taro/">Taro</a><a href="/tags/GMTC/">GMTC</a><a href="/tags/小程序/">小程序</a>
+        <a href="/tags/Taro/">Taro</a><a href="/tags/React/">React</a><a href="/tags/GMTC/">GMTC</a><a href="/tags/小程序/">小程序</a>
     </span>
     
 
@@ -449,8 +496,29 @@
 
 
 
+	<section id="comment" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
 
-
+	<script type="text/javascript">
+	var disqus_shortname = 'kidhaibara';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
 
 
 
@@ -459,8 +527,8 @@
 
     <footer class="site-footer">
   <p class="site-info">
-    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
-    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    Deployed by <a href="https://github.com/kaedea/notion-down" target="_blank">notion-down</a> and
+    Theme by <a href="https://github.com/kaedea/hexo-theme-hacker" target="_blank">hexo-theme-hacker</a>
     </br>
     
     &copy; 2023 Seefsi
@@ -468,7 +536,17 @@
   </p>
 </footer>
     
-    
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'G-J38N5N288S', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
   </div>
 </div>
 </body>
