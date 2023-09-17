@@ -3,17 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Thrift RPC Mock 方案探索 | Mistakes and injuries</title>
+  <title>Thrift RPC Mock 方案探索 | Finale | Mistakes and injuries</title>
 
   
-  <meta name="author" content="harm">
+  <meta name="author" content="Seefsi">
   
 
   
-  <meta name="description" content="背景分析在传统前后端分离开发的场景下，前端和后端一般定好 HTTP API 接口后就各自进行开发，前端开发中使用 EasyMock、webpack-api-mock 等平台&amp;#x2F;工具进行接口的 mock，后端通过 Postman &amp;#x2F; curl 等工具进行接口的自测。
-在微服务场景下，各服务之间通过 IDL 定义好 RPC 接口。但是接口调用方依然有 mock 接口的需求，接口提供方也有着自测接口的需求。公司内的服务化平台已经提供了较为完善的接口测试工具，自己实现一个相对也比较容易，但目前却没有一个比较完善的 RPC Mock 方案。
-在新项目启动后，前端、API 层和依赖的 Service 往往同步开始开发，只要依赖的 Service 未提供，API 和前端的开发、自测都会被阻塞，在侧重数据展示类需求的项目中这种问题更加严重。
-所以，有必要尝试探索一套 RPC Mock 的方案，在保证开发者使用体验的前提下，解决上述问题。">
+  <meta name="description" content="Finale">
   
 
   
@@ -27,14 +24,14 @@
 
   <meta property="og:title" content="Thrift RPC Mock 方案探索"/>
 
-  <meta property="og:site_name" content="Mistakes and injuries"/>
+  <meta property="og:site_name" content="Finale"/>
 
   
   <meta property="og:image" content="/favicon.ico"/>
   
 
   <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Mistakes and injuries" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Finale" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
 <meta name="generator" content="Hexo 6.3.0"></head>
 
@@ -46,9 +43,9 @@
     <header>
   <div class="site-branding">
     <h1 class="site-title">
-      <a href="/">Mistakes and injuries</a>
+      <a href="/">Finale</a>
     </h1>
-    <p class="site-description"></p>
+    <p class="site-description">Mistakes and injuries</p>
   </div>
   <nav class="site-navigation">
     <ul>
@@ -205,7 +202,7 @@
     Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
     </br>
     
-    &copy; 2023 harm
+    &copy; 2023 Seefsi
     
   </p>
 </footer>

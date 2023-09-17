@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://seefsi.github.io/2016/11/11/notes-about-node-thunkify/</loc>
+    
+    <lastmod>2023-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://seefsi.github.io/2016/08/02/javascript-event-emitter/</loc>
     
     <lastmod>2023-09-17</lastmod>
@@ -38,25 +47,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2016/11/11/notes-about-node-thunkify/</loc>
-    
-    <lastmod>2023-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/2016/05/16/table-with-striped-lines/</loc>
-    
-    <lastmod>2023-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/2019/07/02/react-performence/</loc>
+    <loc>https://seefsi.github.io/2021/04/21/taro-h5-components/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2021/04/21/taro-h5-components/</loc>
+    <loc>https://seefsi.github.io/2016/05/16/table-with-striped-lines/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -92,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2015/08/31/thoughts-about-drawing-triangle-with-css/</loc>
+    <loc>https://seefsi.github.io/2019/07/02/react-performence/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2020/02/27/vuejs-review/</loc>
+    <loc>https://seefsi.github.io/2015/08/31/thoughts-about-drawing-triangle-with-css/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -128,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/categories/index.html</loc>
+    <loc>https://seefsi.github.io/2020/02/27/vuejs-review/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -146,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2016/02/12/a-problem-about-gulp-del/</loc>
+    <loc>https://seefsi.github.io/categories/index.html</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -173,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2017/01/17/es6-static-class/</loc>
+    <loc>https://seefsi.github.io/2017/03/23/goodbye-duoshuo/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -191,7 +182,25 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2016/08/17/how-to-monitor-changes-of-js-variable/</loc>
+    <loc>https://seefsi.github.io/2017/01/17/es6-static-class/</loc>
+    
+    <lastmod>2023-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/2016/02/12/a-problem-about-gulp-del/</loc>
+    
+    <lastmod>2023-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/2021/08/06/gmtc-beijing-2021-mp/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -209,16 +218,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/2017/03/23/goodbye-duoshuo/</loc>
-    
-    <lastmod>2023-09-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/2021/08/06/gmtc-beijing-2021-mp/</loc>
+    <loc>https://seefsi.github.io/2016/08/17/how-to-monitor-changes-of-js-variable/</loc>
     
     <lastmod>2023-09-17</lastmod>
     
@@ -234,13 +234,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://seefsi.github.io/tags/gulp/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://seefsi.github.io/tags/ID%E7%94%9F%E6%88%90%E5%99%A8/</loc>
@@ -264,14 +257,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/ES6/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/tags/Class/</loc>
+    <loc>https://seefsi.github.io/tags/%E5%A4%9A%E8%AF%B4/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -299,21 +285,42 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/JavaScript/</loc>
+    <loc>https://seefsi.github.io/tags/ES6/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/Proxy/</loc>
+    <loc>https://seefsi.github.io/tags/Class/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/%E8%84%8F%E5%80%BC%E6%A3%80%E6%B5%8B/</loc>
+    <loc>https://seefsi.github.io/tags/gulp/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/tags/Taro/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/tags/GMTC/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -341,7 +348,21 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/%E5%A4%9A%E8%AF%B4/</loc>
+    <loc>https://seefsi.github.io/tags/JavaScript/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/tags/Proxy/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/tags/%E8%84%8F%E5%80%BC%E6%A3%80%E6%B5%8B/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -356,27 +377,6 @@
   
   <url>
     <loc>https://seefsi.github.io/tags/css/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/tags/Taro/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/tags/GMTC/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://seefsi.github.io/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -418,13 +418,6 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/tags/Vue-js/</loc>
-    <lastmod>2023-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://seefsi.github.io/tags/%E8%A7%86%E9%A2%91/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -452,14 +445,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://seefsi.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://seefsi.github.io/tags/Vue-js/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://seefsi.github.io/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
@@ -476,14 +469,21 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/categories/%E5%89%8D%E7%AB%AF/ES6/</loc>
+    <loc>https://seefsi.github.io/categories/FP/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/categories/FP/</loc>
+    <loc>https://seefsi.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://seefsi.github.io/categories/Linux/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -497,7 +497,7 @@
   </url>
   
   <url>
-    <loc>https://seefsi.github.io/categories/Linux/</loc>
+    <loc>https://seefsi.github.io/categories/%E5%89%8D%E7%AB%AF/ES6/</loc>
     <lastmod>2023-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

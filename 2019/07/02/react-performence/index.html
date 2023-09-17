@@ -3,17 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>React 应用性能优化一例 | Mistakes and injuries</title>
+  <title>React 应用性能优化一例 | Finale | Mistakes and injuries</title>
 
   
-  <meta name="author" content="harm">
+  <meta name="author" content="Seefsi">
   
 
   
-  <meta name="description" content="背景在我们的应用中有一个存储在 Redux 中的全局状态机，保存着整个应用的核心状态，其类型大概如下：
-123456789101112131415enum FSMStatus &amp;#123;    Unknown = 0,    Active = 1,    Inactive = 2,&amp;#125;interface FSM &amp;#123;    global_id: number; // 状态机实例的全局唯一 ID    timestamp: number; // 当前时间，每隔一秒会变化    fsm_status: FSMStatus; // 整个状态机的状态    x_mod_status: FSMStatus; // x 模块的状态    x_mod_data: any; // x 模块的核心数据    y_mod_status: FSMStatus; // y 模块的状态    y_mod_data: any; // y 模块的核心数据&amp;#125;
-还有一些 React 组件，其中 Main 组件包含了 Inner 组件，Inner 组件中使用了 rc-tooltip 实现了弹窗效果。弹窗中有一个列表，列表中有一条带有特殊样式的处于激活状态的数据，且可以通过按键操作切换处于激活状态的数据项。  
-某天突然用户报告说操作弹窗列表时感到卡顿，而且在弹窗开着的时候其他模块会明显感觉比较卡。">
+  <meta name="description" content="Finale">
   
 
   
@@ -27,14 +24,14 @@
 
   <meta property="og:title" content="React 应用性能优化一例"/>
 
-  <meta property="og:site_name" content="Mistakes and injuries"/>
+  <meta property="og:site_name" content="Finale"/>
 
   
   <meta property="og:image" content="/favicon.ico"/>
   
 
   <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Mistakes and injuries" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="Finale" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
 <meta name="generator" content="Hexo 6.3.0"></head>
 
@@ -46,9 +43,9 @@
     <header>
   <div class="site-branding">
     <h1 class="site-title">
-      <a href="/">Mistakes and injuries</a>
+      <a href="/">Finale</a>
     </h1>
-    <p class="site-description"></p>
+    <p class="site-description">Mistakes and injuries</p>
   </div>
   <nav class="site-navigation">
     <ul>
@@ -157,7 +154,7 @@
     Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
     </br>
     
-    &copy; 2023 harm
+    &copy; 2023 Seefsi
     
   </p>
 </footer>
