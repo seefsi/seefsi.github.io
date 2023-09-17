@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>如何监听JS变量的变化 | Mistakes and injuries</title>
+
+  
+  <meta name="author" content="harm">
+  
+
+  
+  <meta name="description" content="如何监听 js 中变量的变化?我现在有这样一个需求，需要监控js的某个变量的改变，如果该变量发生变化，则触发一些事件，不能使用timeinterval之类的定时去监控的方法，不知道有比较好的解决方案么？
+
+这个问题问的很好。  
+流行的MVVM的JS库&amp;#x2F;框架都有共同的特点就是数据绑定，在数据变更后响应式的自动进行相关计算并变更DOM展现。所以这个问题也可以理解为如何实现MVVM库&amp;#x2F;框架的数据绑定。  
+常见的数据绑定的实现有脏值检测，基于ES5的getter和setter，以及ES已被废弃的Object.observe，和ES6中添加的Proxy。">
+  
+
+  
+  
+  <meta name="keywords" content="JavaScript,Proxy,脏值检测">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="如何监听JS变量的变化"/>
+
+  <meta property="og:site_name" content="Mistakes and injuries"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Mistakes and injuries" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">Mistakes and injuries</a>
+    </h1>
+    <p class="site-description"></p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>如何监听JS变量的变化</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2016/08/17/how-to-monitor-changes-of-js-variable/" rel="bookmark">
+        <time class="entry-date published" datetime="2016-08-17T05:48:39.000Z">
+          2016-08-17
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/44724640">如何监听 js 中变量的变化?</a><br>我现在有这样一个需求，需要监控js的某个变量的改变，如果该变量发生变化，则触发一些事件，不能使用timeinterval之类的定时去监控的方法，不知道有比较好的解决方案么？</p>
+</blockquote>
+<p>这个问题问的很好。  </p>
+<p>流行的MVVM的JS库&#x2F;框架都有共同的特点就是数据绑定，在数据变更后响应式的自动进行相关计算并变更DOM展现。所以这个问题也可以理解为<strong>如何实现MVVM库&#x2F;框架的数据绑定</strong>。  </p>
+<p>常见的数据绑定的实现有脏值检测，基于ES5的<code>getter</code>和<code>setter</code>，以及ES已被废弃的<code>Object.observe</code>，和ES6中添加的<code>Proxy</code>。</p>
+<span id="more"></span>
+
+<h2 id="脏值检测"><a href="#脏值检测" class="headerlink" title="脏值检测"></a>脏值检测</h2><p>angular使用的就是脏值检测，原理是比较新值和旧值，当值真的发生改变时再去更改DOM，所以angular中有一个<code>$digest</code>。那么为什么在像<code>ng-click</code>这样的内置指令在触发后会自动变更呢？原理也很简单，在<code>ng-click</code>这样的内置指令中最后追加了<code>$digest</code>。  </p>
+<p>简易的实现一个脏值检测：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>two-way binding<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;init()&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> <span class="attr">ng-click</span>=<span class="string">&quot;inc&quot;</span>&gt;</span></span><br><span class="line">            Increase</span><br><span class="line">        <span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> <span class="attr">ng-click</span>=<span class="string">&quot;reset&quot;</span>&gt;</span></span><br><span class="line">            Reset</span><br><span class="line">        <span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:red&quot;</span> <span class="attr">ng-bind</span>=<span class="string">&quot;counter&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:blue&quot;</span> <span class="attr">ng-bind</span>=<span class="string">&quot;counter&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:green&quot;</span> <span class="attr">ng-bind</span>=<span class="string">&quot;counter&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="comment">/* 数据模型区开始 */</span></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">var</span> counter = <span class="number">0</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">inc</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                counter++;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">reset</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                counter = <span class="number">0</span>;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">            <span class="comment">/* 数据模型区结束 */</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="comment">/* 绑定关系区开始 */</span></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">init</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="title function_">bind</span>();</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">bind</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> list = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;[ng-click]&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i&lt;list.<span class="property">length</span>; i++) &#123;</span></span><br><span class="line"><span class="language-javascript">                    list[i].<span class="property">onclick</span> = (<span class="keyword">function</span>(<span class="params">index</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                        <span class="keyword">return</span> <span class="keyword">function</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                            <span class="variable language_">window</span>[list[index].<span class="title function_">getAttribute</span>(<span class="string">&quot;ng-click&quot;</span>)]();</span></span><br><span class="line"><span class="language-javascript">                            <span class="title function_">apply</span>();</span></span><br><span class="line"><span class="language-javascript">                        &#125;;</span></span><br><span class="line"><span class="language-javascript">                    &#125;)(i);</span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">apply</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> list = <span class="variable language_">document</span>.<span class="title function_">querySelectorAll</span>(<span class="string">&quot;[ng-bind=&#x27;counter&#x27;]&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">for</span> (<span class="keyword">var</span> i=<span class="number">0</span>; i&lt;list.<span class="property">length</span>; i++) &#123;</span></span><br><span class="line"><span class="language-javascript">                    <span class="keyword">if</span> (list[i].<span class="property">innerHTML</span> != counter) &#123;</span></span><br><span class="line"><span class="language-javascript">                        list[i].<span class="property">innerHTML</span> = counter;</span></span><br><span class="line"><span class="language-javascript">                    &#125;</span></span><br><span class="line"><span class="language-javascript">                &#125;</span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">            <span class="comment">/* 绑定关系区结束 */</span></span></span><br><span class="line"><span class="language-javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>这样做的坏处是自己变更数据后，是无法自动改变DOM的，必须要想办法触发<code>apply()</code>，所以只能借助<code>ng-click</code>的包装，在<code>ng-click</code>中包含真实的<code>click</code>事件监听并追加脏值检测以判断是否要更新DOM。  </p>
+<p>另外一个坏处是如果不注意，每次脏值检测会检测大量的数据，而很多数据是没有检测的必要的，容易影响性能。  </p>
+<p>关于如何实现一个和angular一样的脏值检测，知道原理后还有很多工作要去做，以及如何优化等等。如果有兴趣可以看看民工叔曾经推荐的《Build Your Own Angular.js》，第一章<code>Scope</code>便讲了如何实现angular的作用域和脏值检测。对了，上面的例子也是从民工叔的博客稍加修改来的，建议最后去看下原文，链接在参考资料中。</p>
+<h2 id="ES5的getter与setter"><a href="#ES5的getter与setter" class="headerlink" title="ES5的getter与setter"></a>ES5的<code>getter</code>与<code>setter</code></h2><p>在ES5中新增了一个<code>Object.defineProperty</code>，直接在一个对象上定义一个新属性，或者修改一个已经存在的属性， 并返回这个对象。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Object</span>.<span class="title function_">defineProperty</span>(obj, prop, descriptor)</span><br></pre></td></tr></table></figure>
+<p>其接受的第三个参数可以取<code>get</code>和<code>set</code>并各自对应一个<code>getter</code>和<code>setter</code>方法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = &#123; <span class="attr">zhihu</span>:<span class="number">0</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="title class_">Object</span>.<span class="title function_">defineProperty</span>(a, <span class="string">&#x27;zhihu&#x27;</span>, &#123;</span><br><span class="line">  <span class="attr">get</span>: <span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;get：&#x27;</span> + zhihu);</span><br><span class="line">    <span class="keyword">return</span> zhihu;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">set</span>: <span class="keyword">function</span>(<span class="params">value</span>) &#123;</span><br><span class="line">    zhihu = value;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;set:&#x27;</span> + zhihu);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">a.<span class="property">zhihu</span> = <span class="number">2</span>; <span class="comment">// set:2</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(a.<span class="property">zhihu</span>); <span class="comment">// get：2</span></span><br><span class="line">                      <span class="comment">// 2</span></span><br></pre></td></tr></table></figure>
+<p>基于ES5的<code>getter</code>和<code>setter</code>可以说几乎完美符合了要求。为什么要说<code>几乎</code>呢？  </p>
+<p>首先IE8及更低版本IE是无法使用的，而且这个特性是没有<code>polyfill</code>的，无法在不支持的平台实现，<br>这也是基于ES5<code>getter</code>和<code>setter</code>的Vue.js不支持IE8及更低版本IE的原因。也许有人会提到<code>avalon</code>，<code>avalon</code>在低版本IE借助<code>vbscript</code>一些黑魔法实现了类似的功能。  </p>
+<p>除此之外，还有一个问题就是修改数组的<code>length</code>，直接用索引设置元素如<code>items[0] = &#123;&#125;</code>，以及数组的<code>push</code>等变异方法是无法触发<code>setter</code>的。<br>如果想要解决这个问题可以参考Vue的做法，在Vue的<code>observer/array.js</code>中，Vue直接修改了数组的原型方法：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arrayProto = <span class="title class_">Array</span>.<span class="property"><span class="keyword">prototype</span></span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> arrayMethods = <span class="title class_">Object</span>.<span class="title function_">create</span>(arrayProto)</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Intercept mutating methods and emit events</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line">;[</span><br><span class="line">  <span class="string">&#x27;push&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;pop&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;shift&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;unshift&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;splice&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;sort&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;reverse&#x27;</span></span><br><span class="line">]</span><br><span class="line">.<span class="title function_">forEach</span>(<span class="keyword">function</span> (<span class="params">method</span>) &#123;</span><br><span class="line">  <span class="comment">// cache original method</span></span><br><span class="line">  <span class="keyword">var</span> original = arrayProto[method]</span><br><span class="line">  <span class="title function_">def</span>(arrayMethods, method, <span class="keyword">function</span> <span class="title function_">mutator</span> () &#123;</span><br><span class="line">    <span class="comment">// avoid leaking arguments:</span></span><br><span class="line">    <span class="comment">// http://jsperf.com/closure-with-arguments</span></span><br><span class="line">    <span class="keyword">var</span> i = <span class="variable language_">arguments</span>.<span class="property">length</span></span><br><span class="line">    <span class="keyword">var</span> args = <span class="keyword">new</span> <span class="title class_">Array</span>(i)</span><br><span class="line">    <span class="keyword">while</span> (i--) &#123;</span><br><span class="line">      args[i] = <span class="variable language_">arguments</span>[i]</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> result = original.<span class="title function_">apply</span>(<span class="variable language_">this</span>, args)</span><br><span class="line">    <span class="keyword">var</span> ob = <span class="variable language_">this</span>.<span class="property">__ob__</span></span><br><span class="line">    <span class="keyword">var</span> inserted</span><br><span class="line">    <span class="keyword">switch</span> (method) &#123;</span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;push&#x27;</span>:</span><br><span class="line">        inserted = args</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;unshift&#x27;</span>:</span><br><span class="line">        inserted = args</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">      <span class="keyword">case</span> <span class="string">&#x27;splice&#x27;</span>:</span><br><span class="line">        inserted = args.<span class="title function_">slice</span>(<span class="number">2</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (inserted) ob.<span class="title function_">observeArray</span>(inserted)</span><br><span class="line">    <span class="comment">// notify change</span></span><br><span class="line">    ob.<span class="property">dep</span>.<span class="title function_">notify</span>()</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>这样重写了原型方法，在执行数组变异方法后依然能够触发视图的更新。  </p>
+<p>但是这样还是不能解决修改数组的<code>length</code>和直接用索引设置元素如<code>items[0] = &#123;&#125;</code>的问题，想要解决依然可以参考Vue的做法：<br>前一个问题可以直接用新的数组代替旧的数组；后一个问题可以为数组拓展一个<code>$set</code>方法，在执行修改后顺便触发视图的更新。</p>
+<h2 id="已被废弃的Object-observe"><a href="#已被废弃的Object-observe" class="headerlink" title="已被废弃的Object.observe"></a>已被废弃的<code>Object.observe</code></h2><p><code>Object.observe</code>曾在ES7的草案中，并在提议中进展到stage2，最终依然被废弃。<br>这里只举一个MDN上的例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 一个数据模型</span></span><br><span class="line"><span class="keyword">var</span> user = &#123;</span><br><span class="line">  <span class="attr">id</span>: <span class="number">0</span>,</span><br><span class="line">  <span class="attr">name</span>: <span class="string">&#x27;Brendan Eich&#x27;</span>,</span><br><span class="line">  <span class="attr">title</span>: <span class="string">&#x27;Mr.&#x27;</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建用户的greeting</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">updateGreeting</span>(<span class="params"></span>) &#123;</span><br><span class="line">  user.<span class="property">greeting</span> = <span class="string">&#x27;Hello, &#x27;</span> + user.<span class="property">title</span> + <span class="string">&#x27; &#x27;</span> + user.<span class="property">name</span> + <span class="string">&#x27;!&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">updateGreeting</span>();</span><br><span class="line"></span><br><span class="line"><span class="title class_">Object</span>.<span class="title function_">observe</span>(user, <span class="keyword">function</span>(<span class="params">changes</span>) &#123;</span><br><span class="line">  changes.<span class="title function_">forEach</span>(<span class="keyword">function</span>(<span class="params">change</span>) &#123;</span><br><span class="line">    <span class="comment">// 当name或title属性改变时, 更新greeting</span></span><br><span class="line">    <span class="keyword">if</span> (change.<span class="property">name</span> === <span class="string">&#x27;name&#x27;</span> || change.<span class="property">name</span> === <span class="string">&#x27;title&#x27;</span>) &#123;</span><br><span class="line">      <span class="title function_">updateGreeting</span>();</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>由于是已经废弃了的特性，Chrome虽然曾经支持但也已经废弃了支持，这里不再讲更多，有兴趣可以搜一搜以前的文章，这曾经是一个被看好的特性（<a target="_blank" rel="noopener" href="http://div.io/topic/600">Object.observe()带来的数据绑定变革</a>）。<br>当然关于它也有一些替代品<a target="_blank" rel="noopener" href="https://github.com/polymer/observe-js">Polymer&#x2F;observe-js</a>。</p>
+<h2 id="ES6带来的Proxy"><a href="#ES6带来的Proxy" class="headerlink" title="ES6带来的Proxy"></a>ES6带来的<code>Proxy</code></h2><p>人如其名，类似HTTP中的代理：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> p = <span class="keyword">new</span> <span class="title class_">Proxy</span>(target, handler);</span><br></pre></td></tr></table></figure>
+<p><code>target</code>为目标对象，可以是任意类型的对象，比如数组，函数，甚至是另外一个代理对象。<br><code>handler</code>为处理器对象，包含了一组代理方法，分别控制所生成代理对象的各种行为。</p>
+<p>举个例子：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> <span class="title class_">Proxy</span>(&#123;&#125;, &#123;</span><br><span class="line">  <span class="attr">set</span>: <span class="keyword">function</span>(<span class="params">obj, prop, value</span>) &#123;</span><br><span class="line">    obj[prop] = value;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (prop === <span class="string">&#x27;zhihu&#x27;</span>) &#123;</span><br><span class="line">      <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;set &quot;</span> + prop + <span class="string">&quot;: &quot;</span> + obj[prop]);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">a.<span class="property">zhihu</span> = <span class="number">100</span>;</span><br></pre></td></tr></table></figure>
+
+<p>当然，<code>Proxy</code>的能力远不止此，还可以实现代理转发等等。  </p>
+<p>但是要注意的是目前浏览器中只有Firefox18支持这个特性，而babel官方也表明不支持这个特性：</p>
+<blockquote>
+<p>Unsupported feature<br>Due to the limitations of ES5, Proxies cannot be transpiled or polyfilled.</p>
+</blockquote>
+<p>目前已经有babel插件可以实现，但是据说实现的比较复杂。<br>如果是Node的话升级到目前的最新版本应该就可以使用了，上面的例子测试环境为Node v6.4.0。</p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/xufei/blog/issues/10">Angular沉思录（一）数据绑定</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty">Object.defineProperty() - JavaScript | MDN</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/vuejs/vue/blob/dev/src/observer/array.js">vue&#x2F;array.js at dev · vuejs&#x2F;vue</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/observe">Object.observe() - JavaScript | MDN</a></li>
+<li><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy">Proxy - JavaScript | MDN</a></li>
+</ul>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/JavaScript/">JavaScript</a>
+    </span>
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/JavaScript/">JavaScript</a><a href="/tags/Proxy/">Proxy</a><a href="/tags/脏值检测/">脏值检测</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2023 harm
+    
+  </p>
+</footer>
+    
+    
+  </div>
+</div>
+</body>
+</html>
