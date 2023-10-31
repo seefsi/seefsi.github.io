@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>交易之门</title>
   
-  <subtitle>今事莫悔，臭事看破。愿无牵连，不再针对。</subtitle>
+  <subtitle>顶着晦气冲，接受晦气</subtitle>
   <link href="https://seefsi.github.io/atom.xml" rel="self"/>
   
   <link href="https://seefsi.github.io/"/>
-  <updated>2023-10-30T10:18:24.563Z</updated>
+  <updated>2023-10-30T10:27:40.587Z</updated>
   <id>https://seefsi.github.io/</id>
   
   <author>
@@ -17,16 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>人生如何过？</title>
-    <link href="https://seefsi.github.io/2023/10/30/grow_future_life/"/>
-    <id>https://seefsi.github.io/2023/10/30/grow_future_life/</id>
+    <title>学习目标。</title>
+    <link href="https://seefsi.github.io/2023/10/30/grow_future_learning/"/>
+    <id>https://seefsi.github.io/2023/10/30/grow_future_learning/</id>
     <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-10-30T10:18:24.563Z</updated>
+    <updated>2023-10-30T10:27:40.587Z</updated>
     
-    <content type="html"><![CDATA[<p>人生如何过？</p><span id="more"></span><h2 id="人生如何过？"><a href="#人生如何过？" class="headerlink" title="人生如何过？"></a>人生如何过？</h2><h3 id="人生态度"><a href="#人生态度" class="headerlink" title="人生态度"></a>人生态度</h3><blockquote><blockquote><p>时间观念：每天补觉后，精力特别好，不应该浪费。</p></blockquote></blockquote><h3 id="人生追求"><a href="#人生追求" class="headerlink" title="人生追求"></a>人生追求</h3><blockquote><blockquote><p>总结为几个词：强者炼金身，应路之难。善恶通天地，运气常驻。</p></blockquote></blockquote><blockquote><blockquote><p>灵觉：即善且恶，无所不能；不善不恶，闭塞蒙尘。<br>运气只有直通天地，才能反馈自身，不能被傻逼截断。傻逼会恶意利用人的善意，也不怕人的报复，致使他人无力为善，不值得报复。善恶之道不通，留不住运气。<br>运气来了，也会走，差别在于停留的时间。停留的时间足够长，新运气来的足够快，会一直好运。(猜测，等验证)</p></blockquote></blockquote><h3 id="人生捷径"><a href="#人生捷径" class="headerlink" title="人生捷径"></a>人生捷径</h3><blockquote><blockquote><p>预测指标：有人出20w买(包括讲解到他听懂)，我就退休等死</p></blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>学习目标。</p><span id="more"></span><h2 id="临时目标："><a href="#临时目标：" class="headerlink" title="临时目标："></a>临时目标：</h2><ol><li><p>脚本–最大 最小 平均 波动</p></li><li><p>欧元–统计每个小时的波动</p></li><li><p>统计–每个形态最佳止赢–止损</p></li><li><p>mt4生成图，博客</p></li><li><p>统计点差能否跑过大盘–必需长拿</p></li></ol><p>2023-8-11编码好像不对</p><ol start="6"><li>美股日线–衰退预测</li></ol><h2 id="未来大目标：见excel表格"><a href="#未来大目标：见excel表格" class="headerlink" title="未来大目标：见excel表格"></a>未来大目标：见excel表格</h2>]]></content>
     
     
-    <summary type="html">&lt;p&gt;人生如何过？&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;学习目标。&lt;/p&gt;</summary>
     
     
     
@@ -50,25 +50,6 @@
     
     
     <category term="成长" scheme="https://seefsi.github.io/categories/%E6%88%90%E9%95%BF/"/>
-    
-    
-    <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习目标。</title>
-    <link href="https://seefsi.github.io/2023/10/30/grow_future_learning/"/>
-    <id>https://seefsi.github.io/2023/10/30/grow_future_learning/</id>
-    <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-10-30T10:27:40.587Z</updated>
-    
-    <content type="html"><![CDATA[<p>学习目标。</p><span id="more"></span><h2 id="临时目标："><a href="#临时目标：" class="headerlink" title="临时目标："></a>临时目标：</h2><ol><li><p>脚本–最大 最小 平均 波动</p></li><li><p>欧元–统计每个小时的波动</p></li><li><p>统计–每个形态最佳止赢–止损</p></li><li><p>mt4生成图，博客</p></li><li><p>统计点差能否跑过大盘–必需长拿</p></li></ol><p>2023-8-11编码好像不对</p><ol start="6"><li>美股日线–衰退预测</li></ol><h2 id="未来大目标：见excel表格"><a href="#未来大目标：见excel表格" class="headerlink" title="未来大目标：见excel表格"></a>未来大目标：见excel表格</h2>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;学习目标。&lt;/p&gt;</summary>
-    
-    
     
     
     <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
@@ -114,6 +95,25 @@
   </entry>
   
   <entry>
+    <title>人生如何过？</title>
+    <link href="https://seefsi.github.io/2023/10/30/grow_future_life/"/>
+    <id>https://seefsi.github.io/2023/10/30/grow_future_life/</id>
+    <published>2023-10-30T10:00:00.000Z</published>
+    <updated>2023-10-30T10:18:24.563Z</updated>
+    
+    <content type="html"><![CDATA[<p>人生如何过？</p><span id="more"></span><h2 id="人生如何过？"><a href="#人生如何过？" class="headerlink" title="人生如何过？"></a>人生如何过？</h2><h3 id="人生态度"><a href="#人生态度" class="headerlink" title="人生态度"></a>人生态度</h3><blockquote><blockquote><p>时间观念：每天补觉后，精力特别好，不应该浪费。</p></blockquote></blockquote><h3 id="人生追求"><a href="#人生追求" class="headerlink" title="人生追求"></a>人生追求</h3><blockquote><blockquote><p>总结为几个词：强者炼金身，应路之难。善恶通天地，运气常驻。</p></blockquote></blockquote><blockquote><blockquote><p>灵觉：即善且恶，无所不能；不善不恶，闭塞蒙尘。<br>运气只有直通天地，才能反馈自身，不能被傻逼截断。傻逼会恶意利用人的善意，也不怕人的报复，致使他人无力为善，不值得报复。善恶之道不通，留不住运气。<br>运气来了，也会走，差别在于停留的时间。停留的时间足够长，新运气来的足够快，会一直好运。(猜测，等验证)</p></blockquote></blockquote><h3 id="人生捷径"><a href="#人生捷径" class="headerlink" title="人生捷径"></a>人生捷径</h3><blockquote><blockquote><p>预测指标：有人出20w买(包括讲解到他听懂)，我就退休等死</p></blockquote></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;人生如何过？&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
     <title>日内交易</title>
     <link href="https://seefsi.github.io/2023/10/30/trade_target2/"/>
     <id>https://seefsi.github.io/2023/10/30/trade_target2/</id>
@@ -135,13 +135,32 @@
   </entry>
   
   <entry>
+    <title>赢家恒赢，输家多输</title>
+    <link href="https://seefsi.github.io/2023/10/30/trade_target_winner/"/>
+    <id>https://seefsi.github.io/2023/10/30/trade_target_winner/</id>
+    <published>2023-10-30T10:00:00.000Z</published>
+    <updated>2023-10-30T09:56:28.038Z</updated>
+    
+    <content type="html"><![CDATA[<p>赢家一定能预见未来，输家太被动和后知后觉。</p><span id="more"></span><h2 id="输家"><a href="#输家" class="headerlink" title="输家"></a>输家</h2><h3 id="克服输家心态"><a href="#克服输家心态" class="headerlink" title="克服输家心态"></a>克服输家心态</h3><ul><li><p>赢家的耐心，心态无敌；输家的耐心，只会错过；没有耐心，啥也不是。</p></li><li><p>输家的耐心，只会怀疑策略；没有耐心，不会怀疑，但会错的更多。</p></li><li><p>输家重仓+死拿，赢家轻仓+立平。</p></li></ul><h3 id="克服被动"><a href="#克服被动" class="headerlink" title="克服被动"></a>克服被动</h3><ul><li><p>输家：避免时间，机会，资金被自己和他人耗光。</p></li><li><p>日内复盘：及时总结错过的机会。</p></li><li><p>时间：错过了，不要浪费时间。在承受能力内积极做交易。</p></li><li><p>人际：远离垃圾，不被他人消耗。</p></li></ul><h2 id="赢家"><a href="#赢家" class="headerlink" title="赢家"></a>赢家</h2><h3 id="决心"><a href="#决心" class="headerlink" title="决心"></a>决心</h3><ul><li><p>钱可以亏，事可以霉，人不能输。</p></li><li><p>赢家没有价格原则，只关心对错。</p></li></ul><h3 id="低预期"><a href="#低预期" class="headerlink" title="低预期"></a>低预期</h3><blockquote><blockquote><p>早降预期，是一个好习惯。<br>早点尊重0.1手，不重仓。可避免无经验乱冲，造成大亏。</p></blockquote></blockquote><h3 id="克服冲动"><a href="#克服冲动" class="headerlink" title="克服冲动"></a>克服冲动</h3><blockquote><blockquote><p>赢家：不要跟弱者抢机会，不要跟多数人抢机会。<br>表面积极的人，可能是半瞎。</p></blockquote></blockquote><blockquote><blockquote><p>好机会：所有的好机会，要么在强者走顺之前埋伏，要么在弱者犯错之时立即出击。</p></blockquote></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;赢家一定能预见未来，输家太被动和后知后觉。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="计划" scheme="https://seefsi.github.io/tags/%E8%AE%A1%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
     <title>预见和信号</title>
     <link href="https://seefsi.github.io/2023/10/30/trade_target_foresee/"/>
     <id>https://seefsi.github.io/2023/10/30/trade_target_foresee/</id>
     <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-10-30T11:21:20.998Z</updated>
+    <updated>2023-10-31T06:15:08.800Z</updated>
     
-    <content type="html"><![CDATA[<p>确定源于预见和信号。</p><span id="more"></span><h2 id="预见"><a href="#预见" class="headerlink" title="预见"></a>预见</h2><h3 id="预见等级"><a href="#预见等级" class="headerlink" title="预见等级"></a>预见等级</h3><blockquote><blockquote><p>等级：等级越高越坑。<br>小级别的预见，意义不大。通常是在大周期中做小周期。<br>大局中套小局，有局就有等级。</p></blockquote></blockquote><blockquote><blockquote><p>二日局：就很坑。<br>如前假跌，后真跌。<br>早盘，往往可以给昨晚的单子解套。</p></blockquote></blockquote><blockquote><blockquote><p>4小时局：多数人，不愿意给别人回本。</p></blockquote></blockquote><blockquote><blockquote><p>小时局：一路坑。</p></blockquote></blockquote><blockquote><blockquote><p>M30局：送到手上的机会，不能要，一般也不是好的入场点。<br>最好自己去发现机会，如关键阻力。</p></blockquote></blockquote><blockquote><blockquote><p>M1局：只有信号，但找不到对手。等于自杀，再给大家分钱。</p></blockquote></blockquote><h3 id="概率"><a href="#概率" class="headerlink" title="概率"></a>概率</h3><blockquote><blockquote><p>主动找机会，反着做，概率更大。<br>低概率入场，中概率坚持，高概率观望。</p></blockquote></blockquote><h3 id="预见方向和转折"><a href="#预见方向和转折" class="headerlink" title="预见方向和转折"></a>预见方向和转折</h3><blockquote><blockquote><p>早盘转折看H1</p></blockquote></blockquote><blockquote><blockquote><p>确认：低多或高空。<br>一般两种都能赚钱。拿不定很难赚钱。<br>对于N空1多的机会，如果拿不定，先空。</p></blockquote></blockquote><blockquote><blockquote><p>确认：趋势形成前，最好剥头皮。几乎是双倍收益。</p></blockquote></blockquote><blockquote><blockquote><p>趋势前，所有的担心都是对的。越势后，所有的担心都是错的。</p></blockquote></blockquote><h3 id="臭手"><a href="#臭手" class="headerlink" title="臭手"></a>臭手</h3><blockquote><blockquote><p>如果同样习惯不能在平价中赚钱，没必要操作。<br>如果不能在$120波动中活下来，也没必要操作。</p></blockquote></blockquote><blockquote><blockquote><p>市场好战，且贪婪。<br>在同一个时间吃亏的人，往往会连续吃亏。<br>一波行情，往往是交易者精力旺盛的时候，自信可以逃过转折点。</p></blockquote></blockquote><blockquote><blockquote><p>大级别，左进右出，不出不进，同出同进。</p></blockquote></blockquote><h2 id="信号"><a href="#信号" class="headerlink" title="信号"></a>信号</h2><p>判断信号非常累，不停的计算支撑、阻力和目标位、最大承受损失。<br>支撑有支撑的目标位，阻力有阻力的目标位<br>每个短线0.05手都是一个新的开始，错过了目标出场，和下次目标相同即可。<br>或者，错过了，回调到M1即出场。</p><h3 id="观察角度"><a href="#观察角度" class="headerlink" title="观察角度"></a>观察角度</h3><blockquote><blockquote><p>真正的交易，不是看涨看跌，而是坑涨坑跌。<br>失败者只关心一次交易，成功者才关注历史。<br>所以失败者往往忍不住犯错。也越容易被骗。</p></blockquote></blockquote><blockquote><blockquote><p>眼睛最容易骗人。。</p></blockquote></blockquote><h3 id="高低原则"><a href="#高低原则" class="headerlink" title="高低原则"></a>高低原则</h3><blockquote><blockquote><p>高位下降，表示恐惧。低位下降，表示伤害。<br>双底时，有恐惧没伤害，可能转势。</p></blockquote></blockquote><h3 id="危险入场信号"><a href="#危险入场信号" class="headerlink" title="危险入场信号"></a>危险入场信号</h3><blockquote><blockquote><p>机会太好，重仓进，打止损。<br>实际后面才是好机会。<br>最好错过就错一天。<br>失败的入场点一定是个错误，会亏损。</p></blockquote></blockquote><blockquote><blockquote><p>眼光短：这种人只能盯着市场，而且冲动。<br>机会是对手给的，不是市场给的。市场永远55开。</p></blockquote></blockquote><h3 id="常规信号"><a href="#常规信号" class="headerlink" title="常规信号"></a>常规信号</h3><blockquote><blockquote><p>试砸</p></blockquote></blockquote><blockquote><blockquote><p>假信号：非关键位置，假砸。<br>先跌，然后回升了止损位置，再找方向。亏在太贪。<br>最好信号都不要信，60%以上的队友，跟风就死。<br>最好等傻子犯错再打止损，我再入场。</p></blockquote></blockquote><h3 id="持仓信号"><a href="#持仓信号" class="headerlink" title="持仓信号"></a>持仓信号</h3><blockquote><blockquote><p>破底：强破留3分钟，弱破留30秒。<br>底部30秒不跌出场，何况是亏本</p></blockquote></blockquote><h3 id="出场信号"><a href="#出场信号" class="headerlink" title="出场信号"></a>出场信号</h3><blockquote><blockquote><p>出场：不一定必进，但一定必出。<br>以出场点找下一个入场点，好做的多<br>成本亏$1必须损，回调亏$1不算<br>目标达到，或有新支撑，立即出场。不清楚支撑别进场。</p></blockquote></blockquote><blockquote><blockquote><p>限时出场：5到10分钟后，回点就走，或亏的更多也走。<br>最佳出场，一般只能考虑30秒，超过就错过。</p></blockquote></blockquote><h3 id="波动"><a href="#波动" class="headerlink" title="波动"></a>波动</h3><blockquote><blockquote><p>目标：目标越小，反弹越大。<br>小目标达到，遇支撑就出场。小目标越要认真对待。</p></blockquote></blockquote><blockquote><blockquote><p>回调：回调过阻力位，必须平仓。<br>一般回调到均线位置</p></blockquote></blockquote><blockquote><blockquote><p>出场：远离均线，行情不动，可以出场。<br>等观察</p></blockquote></blockquote><blockquote><blockquote><p>最大承受力出场：远离均线，行情不动，可以出场。<br>等观察</p></blockquote></blockquote><blockquote><blockquote><p>均线交叉：目标不会突破前低。</p></blockquote></blockquote><h3 id="常规形态"><a href="#常规形态" class="headerlink" title="常规形态"></a>常规形态</h3><blockquote><blockquote><p>4231</p></blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>确定源于预见和信号。</p><span id="more"></span><h2 id="预见"><a href="#预见" class="headerlink" title="预见"></a>预见</h2><h3 id="最优状态"><a href="#最优状态" class="headerlink" title="最优状态"></a>最优状态</h3><blockquote><blockquote><p>早上：能预见一天的图形。<br>也能预感1个月资金翻倍。</p></blockquote></blockquote><h3 id="预见等级"><a href="#预见等级" class="headerlink" title="预见等级"></a>预见等级</h3><blockquote><blockquote><p>等级：等级越高越坑。<br>小级别的预见，意义不大。通常是在大周期中做小周期。<br>大局中套小局，有局就有等级。</p></blockquote></blockquote><blockquote><blockquote><p>二日局：就很坑。<br>如前假跌，后真跌。<br>早盘，往往可以给昨晚的单子解套。</p></blockquote></blockquote><blockquote><blockquote><p>4小时局：多数人，不愿意给别人回本。</p></blockquote></blockquote><blockquote><blockquote><p>小时局：一路坑。</p></blockquote></blockquote><blockquote><blockquote><p>M30局：送到手上的机会，不能要，一般也不是好的入场点。<br>最好自己去发现机会，如关键阻力。</p></blockquote></blockquote><blockquote><blockquote><p>M1局：只有信号，但找不到对手。等于自杀，再给大家分钱。</p></blockquote></blockquote><h3 id="概率"><a href="#概率" class="headerlink" title="概率"></a>概率</h3><blockquote><blockquote><p>主动找机会，反着做，概率更大。<br>低概率入场，中概率坚持，高概率观望。</p></blockquote></blockquote><h3 id="预见方向和转折"><a href="#预见方向和转折" class="headerlink" title="预见方向和转折"></a>预见方向和转折</h3><blockquote><blockquote><p>早盘转折看H1</p></blockquote></blockquote><blockquote><blockquote><p>确认：低多或高空。<br>一般两种都能赚钱。拿不定很难赚钱。<br>对于N空1多的机会，如果拿不定，先空。</p></blockquote></blockquote><blockquote><blockquote><p>确认：趋势形成前，最好剥头皮。几乎是双倍收益。</p></blockquote></blockquote><blockquote><blockquote><p>趋势前，所有的担心都是对的。越势后，所有的担心都是错的。</p></blockquote></blockquote><h3 id="臭手"><a href="#臭手" class="headerlink" title="臭手"></a>臭手</h3><blockquote><blockquote><p>臭手习惯1，即使在在平价中也会亏钱。臭手时注意减少操作频率。<br>A级————先做空再做多<br>B级————先观望，低点做多<br>C级————先观望，低点做空，再止损<br>D级————先做多，低点止损，再做空，回调又止损</p></blockquote></blockquote><blockquote><blockquote><p>臭手习惯2，即使在在平价中也会亏钱。臭手时注意减少操作频率。<br>A级————先做多再做空<br>B级————先观望，高点做空<br>C级————先观望，高点做多，再止损<br>D级————先做空，高点止损，再做多，回调又止损</p></blockquote></blockquote><blockquote><blockquote><p>如果不能在$120波动中活下来，也没必要操作。</p></blockquote></blockquote><blockquote><blockquote><p>市场好战，且贪婪。<br>在同一个时间吃亏的人，往往会连续吃亏。<br>一波行情，往往是交易者精力旺盛的时候，自信可以逃过转折点。</p></blockquote></blockquote><blockquote><blockquote><p>大级别，左进右出，不出不进，同出同进。</p></blockquote></blockquote><h2 id="信号"><a href="#信号" class="headerlink" title="信号"></a>信号</h2><p>判断信号非常累，不停的计算支撑、阻力和目标位、最大承受损失。<br>支撑有支撑的目标位，阻力有阻力的目标位<br>每个短线0.05手都是一个新的开始，错过了目标出场，和下次目标相同即可。<br>或者，错过了，回调到M1即出场。</p><h3 id="观察角度"><a href="#观察角度" class="headerlink" title="观察角度"></a>观察角度</h3><blockquote><blockquote><p>真正的交易，不是看涨看跌，而是坑涨坑跌。<br>失败者只关心一次交易，成功者才关注历史。<br>所以失败者往往忍不住犯错。也越容易被骗。</p></blockquote></blockquote><blockquote><blockquote><p>眼睛最容易骗人。。</p></blockquote></blockquote><h3 id="高低原则"><a href="#高低原则" class="headerlink" title="高低原则"></a>高低原则</h3><blockquote><blockquote><p>高位下降，表示恐惧。低位下降，表示伤害。<br>双底时，有恐惧没伤害，可能转势。</p></blockquote></blockquote><h3 id="危险入场信号"><a href="#危险入场信号" class="headerlink" title="危险入场信号"></a>危险入场信号</h3><blockquote><blockquote><p>机会太好，重仓进，打止损。<br>实际后面才是好机会。<br>最好错过就错一天。<br>失败的入场点一定是个错误，会亏损。</p></blockquote></blockquote><blockquote><blockquote><p>眼光短：这种人只能盯着市场，而且冲动。<br>机会是对手给的，不是市场给的。市场永远55开。</p></blockquote></blockquote><h3 id="常规信号"><a href="#常规信号" class="headerlink" title="常规信号"></a>常规信号</h3><blockquote><blockquote><p>试砸</p></blockquote></blockquote><blockquote><blockquote><p>假信号：非关键位置，假砸。<br>先跌，然后回升了止损位置，再找方向。亏在太贪。<br>最好信号都不要信，60%以上的队友，跟风就死。<br>最好等傻子犯错再打止损，我再入场。</p></blockquote></blockquote><h3 id="持仓信号"><a href="#持仓信号" class="headerlink" title="持仓信号"></a>持仓信号</h3><blockquote><blockquote><p>破底：强破留3分钟，弱破留30秒。<br>底部30秒不跌出场，何况是亏本</p></blockquote></blockquote><h3 id="出场信号"><a href="#出场信号" class="headerlink" title="出场信号"></a>出场信号</h3><blockquote><blockquote><p>出场：不一定必进，但一定必出。<br>以出场点找下一个入场点，好做的多<br>成本亏$1必须损，回调亏$1不算<br>目标达到，或有新支撑，立即出场。不清楚支撑别进场。</p></blockquote></blockquote><blockquote><blockquote><p>限时出场：5到10分钟后，回点就走，或亏的更多也走。<br>最佳出场，一般只能考虑30秒，超过就错过。</p></blockquote></blockquote><h3 id="波动"><a href="#波动" class="headerlink" title="波动"></a>波动</h3><blockquote><blockquote><p>目标：目标越小，反弹越大。<br>小目标达到，遇支撑就出场。小目标越要认真对待。</p></blockquote></blockquote><blockquote><blockquote><p>回调：回调过阻力位，必须平仓。<br>一般回调到均线位置</p></blockquote></blockquote><blockquote><blockquote><p>出场：远离均线，行情不动，可以出场。<br>等观察</p></blockquote></blockquote><blockquote><blockquote><p>最大承受力出场：远离均线，行情不动，可以出场。<br>等观察</p></blockquote></blockquote><blockquote><blockquote><p>均线交叉：目标不会突破前低。</p></blockquote></blockquote><h3 id="常规形态"><a href="#常规形态" class="headerlink" title="常规形态"></a>常规形态</h3><blockquote><blockquote><p>4231</p></blockquote></blockquote>]]></content>
     
     
     <summary type="html">&lt;p&gt;确定源于预见和信号。&lt;/p&gt;</summary>
@@ -164,25 +183,6 @@
     
     
     <summary type="html">&lt;p&gt;收益来自执行和习惯。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="计划" scheme="https://seefsi.github.io/tags/%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>赢家恒赢，输家多输</title>
-    <link href="https://seefsi.github.io/2023/10/30/trade_target_winner/"/>
-    <id>https://seefsi.github.io/2023/10/30/trade_target_winner/</id>
-    <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-10-30T09:56:28.038Z</updated>
-    
-    <content type="html"><![CDATA[<p>赢家一定能预见未来，输家太被动和后知后觉。</p><span id="more"></span><h2 id="输家"><a href="#输家" class="headerlink" title="输家"></a>输家</h2><h3 id="克服输家心态"><a href="#克服输家心态" class="headerlink" title="克服输家心态"></a>克服输家心态</h3><ul><li><p>赢家的耐心，心态无敌；输家的耐心，只会错过；没有耐心，啥也不是。</p></li><li><p>输家的耐心，只会怀疑策略；没有耐心，不会怀疑，但会错的更多。</p></li><li><p>输家重仓+死拿，赢家轻仓+立平。</p></li></ul><h3 id="克服被动"><a href="#克服被动" class="headerlink" title="克服被动"></a>克服被动</h3><ul><li><p>输家：避免时间，机会，资金被自己和他人耗光。</p></li><li><p>日内复盘：及时总结错过的机会。</p></li><li><p>时间：错过了，不要浪费时间。在承受能力内积极做交易。</p></li><li><p>人际：远离垃圾，不被他人消耗。</p></li></ul><h2 id="赢家"><a href="#赢家" class="headerlink" title="赢家"></a>赢家</h2><h3 id="决心"><a href="#决心" class="headerlink" title="决心"></a>决心</h3><ul><li><p>钱可以亏，事可以霉，人不能输。</p></li><li><p>赢家没有价格原则，只关心对错。</p></li></ul><h3 id="低预期"><a href="#低预期" class="headerlink" title="低预期"></a>低预期</h3><blockquote><blockquote><p>早降预期，是一个好习惯。<br>早点尊重0.1手，不重仓。可避免无经验乱冲，造成大亏。</p></blockquote></blockquote><h3 id="克服冲动"><a href="#克服冲动" class="headerlink" title="克服冲动"></a>克服冲动</h3><blockquote><blockquote><p>赢家：不要跟弱者抢机会，不要跟多数人抢机会。<br>表面积极的人，可能是半瞎。</p></blockquote></blockquote><blockquote><blockquote><p>好机会：所有的好机会，要么在强者走顺之前埋伏，要么在弱者犯错之时立即出击。</p></blockquote></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;赢家一定能预见未来，输家太被动和后知后觉。&lt;/p&gt;</summary>
     
     
     
@@ -255,11 +255,11 @@
   </entry>
   
   <entry>
-    <title>每年总结汇总</title>
+    <title>往年经历汇总</title>
     <link href="https://seefsi.github.io/2023/10/16/grow_summary/"/>
     <id>https://seefsi.github.io/2023/10/16/grow_summary/</id>
     <published>2023-10-16T04:26:00.000Z</published>
-    <updated>2023-10-25T05:05:43.284Z</updated>
+    <updated>2023-10-31T07:13:11.745Z</updated>
     
     <content type="html"><![CDATA[<p>臭事看破。看破是为了不再被损害，至于报复要看世界能否为我所用。</p><span id="more"></span><h3 id="2023年"><a href="#2023年" class="headerlink" title="2023年"></a>2023年</h3><p>远离不上班的傻逼和毛狗，因为他们从来没有失败过，也从来没有灭绝过。</p><p><a href="https://seefsi.github.io/post/grow_summary2023.html">2023年总结</a><br>[&#x2F;&#x2F;]: # (source_posts\grow_summary2023.md)</p><h3 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h3><p>在此记录遇到过的超纲傻逼，其他地方不用再保留负面内容。</p><p><a href="https://seefsi.github.io/post/grow_summary2022.html">2022年总结</a><br>[&#x2F;&#x2F;]: # (source_posts\grow_summary2022.md)</p><h3 id="2021年"><a href="#2021年" class="headerlink" title="2021年"></a>2021年</h3><p>回顾一生，是对生命的敬畏。彻底斩断过去，那些如秋天的叶子。</p><p><a href="https://seefsi.github.io/post/grow_summary2021.html">2021年总结</a><br>[&#x2F;&#x2F;]: # (source_posts\grow_summary2021.md)</p>]]></content>
     
@@ -269,36 +269,16 @@
     
     
     
-    <category term="每年总结" scheme="https://seefsi.github.io/tags/%E6%AF%8F%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
+    <category term="无聊的一生" scheme="https://seefsi.github.io/tags/%E6%97%A0%E8%81%8A%E7%9A%84%E4%B8%80%E7%94%9F/"/>
     
   </entry>
   
   <entry>
-    <title>2023年总结</title>
-    <link href="https://seefsi.github.io/2023/10/16/grow_summary2023/"/>
-    <id>https://seefsi.github.io/2023/10/16/grow_summary2023/</id>
-    <published>2023-10-16T04:26:00.000Z</published>
-    <updated>2023-10-25T03:51:55.529Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>远离不上班的傻逼和毛狗，因为他们从来没有失败过，也从来没有灭绝过。</code></pre><span id="more"></span><h2 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h2><h3 id="重要决定"><a href="#重要决定" class="headerlink" title="重要决定"></a>重要决定</h3><ol><li>辞职。</li></ol><ul><li><p><strong>辞职损失</strong>：工资，社保</p></li><li><p><strong>不辞职损失</strong>：精神消耗，段位低，陪傻逼瞎逼逼。</p></li><li><p><strong>不辞职风险</strong>：如果工作时遇到毛狗+湖北狗骚扰，我可能已经挂了。</p></li><li><p><strong>潜在利益</strong>：有机会成功，有时间做兴趣内的事。</p></li></ul><ol start="2"><li>跟随高人。</li></ol><ul><li><strong>潜在利益</strong>：减少错误成本。</li></ul><ol start="3"><li>写文档</li></ol><ul><li><strong>潜在利益</strong>：改变坏习惯，有进步后再向前冲。</li></ul><h3 id="遇到过的超纲傻逼"><a href="#遇到过的超纲傻逼" class="headerlink" title="遇到过的超纲傻逼"></a>遇到过的超纲傻逼</h3><ol><li>广东毛狗泄露个人信息</li></ol><ul><li><p><strong>傻逼程度</strong>：狗中厉鬼</p></li><li><p><strong>事件</strong>：广州的深圳的傻逼民警，随便泄露个人号码+车票行程，害我被跟踪3天。</p></li></ul><p><img src="/img/grow/2023080604_all.png"><br><img src="/img/grow/2023080601_all.jpg"></p><ol start="2"><li>一群傻逼瞎逼逼</li></ol><ul><li><p><strong>傻逼程度</strong>：毛狗培养的傻逼，靠坑我来练手？</p></li><li><p><strong>事件</strong>：不上班的傻逼，除了瞎逼逼+坑人啥也不会。</p></li><li><p><strong>直接损失</strong>：一群傻逼瞎逼逼，影响情绪，砸坏酒店东西，赔了3000。</p></li></ul><p><img src="/img/grow/2023080901.png"></p><ol start="3"><li>湖北傻逼坑完人，再借钱不还</li></ol><ul><li><p><strong>傻逼程度</strong>：人间恶魔</p></li><li><p><strong>事件</strong>：一群不上班的傻逼，完美的套路。穷不可怕，到处坑人才可怕。</p></li><li><p><strong>间接损失</strong>：租房的风水没了。还要换手机号，跑银行换号，换有线网络。</p></li></ul><p><img src="/img/grow/2023082901_all.jpg"></p><ol start="4"><li>广东傻逼<font color="#FF2400">黄淑珍</font>，趁机借钱，5~10年还不了</li></ol><ul><li><p><strong>傻逼程度</strong>：花2周恢复的精神，被第2次打乱。几乎彻底坏了。</p></li><li><p><strong>事件</strong>：连续被坑</p></li><li><p><strong>间接损失</strong>：3个月的运气没了。如果不是遇到这些傻逼，我可能已经起飞了。</p></li></ul><h3 id="未完成的计划"><a href="#未完成的计划" class="headerlink" title="未完成的计划"></a>未完成的计划</h3><ol><li><p>换房子。目前的房子风水破了，住着不安心。计划是住外省大山区，由于饮食不合适取消。</p></li><li><p>出国。国内的毛狗太贱，没法待了。</p></li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;pre&gt;&lt;code&gt;远离不上班的傻逼和毛狗，因为他们从来没有失败过，也从来没有灭绝过。
-&lt;/code&gt;&lt;/pre&gt;</summary>
-    
-    
-    
-    
-    <category term="每年总结" scheme="https://seefsi.github.io/tags/%E6%AF%8F%E5%B9%B4%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>每年目标汇总</title>
+    <title>年年目标汇总</title>
     <link href="https://seefsi.github.io/2023/10/16/grow_target/"/>
     <id>https://seefsi.github.io/2023/10/16/grow_target/</id>
     <published>2023-10-16T04:26:00.000Z</published>
-    <updated>2023-10-25T07:41:42.412Z</updated>
+    <updated>2023-10-31T07:13:21.668Z</updated>
     
     <content type="html"><![CDATA[<p>今事莫悔。即然过了转折点，那就向前冲。再也不做天选踩坑人。</p><span id="more"></span><h3 id="重点目标"><a href="#重点目标" class="headerlink" title="重点目标"></a>重点目标</h3><p>这里只关注重点目标，不提生活上的目标。</p><p>也为了提示自己当前时间应该做什么。</p><h3 id="2023年"><a href="#2023年" class="headerlink" title="2023年"></a>2023年</h3><p>条件不好，更应该冲。</p><p><a href="https://seefsi.github.io/post/grow_target2023.html">2023年目标</a><br>[&#x2F;&#x2F;]: # (source_posts\grow_target2023.md)</p>]]></content>
     
@@ -308,7 +288,7 @@
     
     
     
-    <category term="每年目标" scheme="https://seefsi.github.io/tags/%E6%AF%8F%E5%B9%B4%E7%9B%AE%E6%A0%87/"/>
+    <category term="无聊的一生" scheme="https://seefsi.github.io/tags/%E6%97%A0%E8%81%8A%E7%9A%84%E4%B8%80%E7%94%9F/"/>
     
   </entry>
   
@@ -317,7 +297,7 @@
     <link href="https://seefsi.github.io/2023/10/16/grow_target2023/"/>
     <id>https://seefsi.github.io/2023/10/16/grow_target2023/</id>
     <published>2023-10-16T04:26:00.000Z</published>
-    <updated>2023-10-25T07:48:30.881Z</updated>
+    <updated>2023-10-31T07:13:14.496Z</updated>
     
     <content type="html"><![CDATA[<p>条件不好，更应该冲。</p><span id="more"></span><h3 id="2023年"><a href="#2023年" class="headerlink" title="2023年"></a>2023年</h3><p>按优先级次序</p><h3 id="优先"><a href="#优先" class="headerlink" title="优先"></a>优先</h3><p>&#x2F;&#x2F;过去言论，整理</p><p>&#x2F;&#x2F;研究几篇参考的交易系统</p><p>&#x2F;&#x2F;精神分析</p><p>&#x2F;&#x2F;视频素材</p><h3 id="次要"><a href="#次要" class="headerlink" title="次要"></a>次要</h3><p>&#x2F;&#x2F;学习mql4—接一个单子</p><h3 id="不重要"><a href="#不重要" class="headerlink" title="不重要"></a>不重要</h3><p>&#x2F;&#x2F;看书–<br>&#x2F;&#x2F; 趋势–道势理论，<br>&#x2F;&#x2F; 波浪理论<br>&#x2F;&#x2F; 混沌理论</p><p>&#x2F;&#x2F;预测说明</p>]]></content>
     
@@ -327,7 +307,26 @@
     
     
     
-    <category term="每年目标" scheme="https://seefsi.github.io/tags/%E6%AF%8F%E5%B9%B4%E7%9B%AE%E6%A0%87/"/>
+    <category term="无聊的一生" scheme="https://seefsi.github.io/tags/%E6%97%A0%E8%81%8A%E7%9A%84%E4%B8%80%E7%94%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2023年经历</title>
+    <link href="https://seefsi.github.io/2023/10/16/grow_summary2023/"/>
+    <id>https://seefsi.github.io/2023/10/16/grow_summary2023/</id>
+    <published>2023-10-16T04:26:00.000Z</published>
+    <updated>2023-10-31T07:13:02.147Z</updated>
+    
+    <content type="html"><![CDATA[<p>远离不上班的傻逼和毛狗，因为他们从来没有失败过，也从来没有灭绝过。</p><span id="more"></span><h2 id="2022年"><a href="#2022年" class="headerlink" title="2022年"></a>2022年</h2><h3 id="重要决定"><a href="#重要决定" class="headerlink" title="重要决定"></a>重要决定</h3><ol><li>辞职。</li></ol><ul><li><p><strong>辞职损失</strong>：工资，社保</p></li><li><p><strong>不辞职损失</strong>：精神消耗，段位低，陪傻逼瞎逼逼。</p></li><li><p><strong>不辞职风险</strong>：如果工作时遇到毛狗+湖北狗骚扰，我可能已经挂了。</p></li><li><p><strong>潜在利益</strong>：有机会成功，有时间做兴趣内的事。</p></li></ul><ol start="2"><li>跟随高人。</li></ol><ul><li><strong>潜在利益</strong>：减少错误成本。</li></ul><ol start="3"><li>写文档</li></ol><ul><li><strong>潜在利益</strong>：改变坏习惯，有进步后再向前冲。</li></ul><h3 id="遇到过的超纲傻逼"><a href="#遇到过的超纲傻逼" class="headerlink" title="遇到过的超纲傻逼"></a>遇到过的超纲傻逼</h3><ol><li>广东毛狗泄露个人信息</li></ol><ul><li><p><strong>傻逼程度</strong>：狗中厉鬼</p></li><li><p><strong>事件</strong>：广州的深圳的傻逼民警，随便泄露个人号码+车票行程，害我被跟踪3天。</p></li></ul><p><img src="/img/grow/2023080604_all.png"><br><img src="/img/grow/2023080601_all.jpg"></p><ol start="2"><li>一群傻逼瞎逼逼</li></ol><ul><li><p><strong>傻逼程度</strong>：毛狗培养的傻逼，靠坑我来练手？</p></li><li><p><strong>事件</strong>：不上班的傻逼，除了瞎逼逼+坑人啥也不会。</p></li><li><p><strong>直接损失</strong>：一群傻逼瞎逼逼，影响情绪，砸坏酒店东西，赔了3000。</p></li></ul><p><img src="/img/grow/2023080901.png"></p><ol start="3"><li>湖北傻逼坑完人，再借钱不还</li></ol><ul><li><p><strong>傻逼程度</strong>：人间恶魔</p></li><li><p><strong>事件</strong>：一群不上班的傻逼，完美的套路。穷不可怕，到处坑人才可怕。</p></li><li><p><strong>间接损失</strong>：租房的风水没了。还要换手机号，跑银行换号，换有线网络。</p></li></ul><p><img src="/img/grow/2023082901_all.jpg"></p><ol start="4"><li>广东傻逼<font color="#FF2400">黄淑珍</font>，趁机借钱，5~10年还不了</li></ol><ul><li><p><strong>傻逼程度</strong>：花2周恢复的精神，被第2次打乱。几乎彻底坏了。</p></li><li><p><strong>事件</strong>：连续被坑</p></li><li><p><strong>间接损失</strong>：3个月的运气没了。如果不是遇到这些傻逼，我可能已经起飞了。</p></li></ul><h3 id="未完成的计划"><a href="#未完成的计划" class="headerlink" title="未完成的计划"></a>未完成的计划</h3><ol><li><p>换房子。目前的房子风水破了，住着不安心。计划是住外省大山区，由于饮食不合适取消。</p></li><li><p>出国。国内的毛狗太贱，没法待了。</p></li></ol>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;远离不上班的傻逼和毛狗，因为他们从来没有失败过，也从来没有灭绝过。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="无聊的一生" scheme="https://seefsi.github.io/tags/%E6%97%A0%E8%81%8A%E7%9A%84%E4%B8%80%E7%94%9F/"/>
     
   </entry>
   
@@ -336,7 +335,7 @@
     <link href="https://seefsi.github.io/2023/10/16/grow_target2024/"/>
     <id>https://seefsi.github.io/2023/10/16/grow_target2024/</id>
     <published>2023-10-16T04:26:00.000Z</published>
-    <updated>2023-10-25T07:33:07.611Z</updated>
+    <updated>2023-10-31T07:13:17.570Z</updated>
     
     <content type="html"><![CDATA[<p>。</p><span id="more"></span><h3 id="2024年"><a href="#2024年" class="headerlink" title="2024年"></a>2024年</h3><p>暂时没有</p>]]></content>
     
@@ -346,28 +345,7 @@
     
     
     
-    <category term="每年目标" scheme="https://seefsi.github.io/tags/%E6%AF%8F%E5%B9%B4%E7%9B%AE%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>交易者语录</title>
-    <link href="https://seefsi.github.io/2023/09/26/grow_sayings/"/>
-    <id>https://seefsi.github.io/2023/09/26/grow_sayings/</id>
-    <published>2023-09-26T10:00:00.000Z</published>
-    <updated>2023-10-20T01:33:16.569Z</updated>
-    
-    <content type="html"><![CDATA[<p>为何要问他？复制成功的路。</p><span id="more"></span><h3 id="米歇尔-威廉姆斯："><a href="#米歇尔-威廉姆斯：" class="headerlink" title="米歇尔.威廉姆斯："></a>米歇尔.威廉姆斯：</h3><p>1.不要预测市场</p><p>2.必须控制损失</p><p>3.只在剧烈波动的交易日赚钱</p><p>剧烈上涨日，收盘价往往接近最高点。</p><p>剧烈下跌日，收盘价往往接近最低点。</p><blockquote><p>我的理解：中长线交易，重在执行，轻于预测</p></blockquote><h3 id="约翰·邓普顿："><a href="#约翰·邓普顿：" class="headerlink" title="约翰·邓普顿："></a>约翰·邓普顿：</h3><p>行情总在绝望中诞生，在半信半疑中成长，在憧憬中成熟，在希望中毁灭——约翰·邓普顿。</p><p>邓普顿的交易系统和理念不仅适用于期货市场，也适用于其他金融市场，如股票、外汇、债券等。他的交易系统和理念主要包括以下几个方面：</p><p>1.程序化交易：建立自己的交易系统，严格按照交易系统实施操作，排除外在因素干扰。交易系统应该包括市场分析、入市条件、出市条件、风险控制、资金管理等要素。</p><p>2.交易艺术：分析市场背后的逻辑，投资者的心理和情绪，以及市场的趋势和波动。利用技术指标和图形分析来辅助判断市场的走势和方向。</p><p>3.逆向投资：寻找那些被大众忽视或低估的优质股票，实行低买高卖的策略。在市场恐慌或低迷时买入，在市场狂热或高涨时卖出。</p><p>4.全球化投资：放眼全球，而不是只关注一点。在不同的国家、地区、行业中寻找投资机会，分散风险，提高收益。</p><p>5.长期投资：以长期的视角来看待市场和投资，不要被短期的波动所干扰或诱惑。选择那些具有良好基本面和成长潜力的股票，并持有到合适的时机。</p><blockquote><p>我的理解：短期的波动，不可忽视中长线方向</p></blockquote><h3 id="Van-K-Tharp，《超级交易员》作者："><a href="#Van-K-Tharp，《超级交易员》作者：" class="headerlink" title="Van K. Tharp，《超级交易员》作者："></a>Van K. Tharp，《超级交易员》作者：</h3><p>1.切忌轻言放弃，查清失败原因<br><a href="https://xnews.jin10.com/details/118645">https://xnews.jin10.com/details/118645</a></p><h3 id="米高·马加斯："><a href="#米高·马加斯：" class="headerlink" title="米高·马加斯："></a>米高·马加斯：</h3><p>留意转势</p><p>切勿孤注一掷</p><p>有风使尽帆，赢钱赢到尽</p><p>进退有度</p><p>必须独断独行</p><blockquote><p>我的理解：进退有度，避免了短线弱点；</p></blockquote><blockquote><p>我的理解：赢钱赢到尽，避免了中线弱点；</p></blockquote><blockquote><p>我的理解：独断独行，避免了长线弱点；</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;为何要问他？复制成功的路。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="成长" scheme="https://seefsi.github.io/categories/%E6%88%90%E9%95%BF/"/>
-    
-    
-    <category term="语录" scheme="https://seefsi.github.io/tags/%E8%AF%AD%E5%BD%95/"/>
+    <category term="无聊的一生" scheme="https://seefsi.github.io/tags/%E6%97%A0%E8%81%8A%E7%9A%84%E4%B8%80%E7%94%9F/"/>
     
   </entry>
   
@@ -382,6 +360,27 @@
     
     
     <summary type="html">&lt;p&gt;不理解的标红，非常理解的标绿，不重要的标灰。&lt;br&gt;有需要的加说明，方便以后查看。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="成长" scheme="https://seefsi.github.io/categories/%E6%88%90%E9%95%BF/"/>
+    
+    
+    <category term="语录" scheme="https://seefsi.github.io/tags/%E8%AF%AD%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>交易者语录</title>
+    <link href="https://seefsi.github.io/2023/09/26/grow_sayings/"/>
+    <id>https://seefsi.github.io/2023/09/26/grow_sayings/</id>
+    <published>2023-09-26T10:00:00.000Z</published>
+    <updated>2023-10-20T01:33:16.569Z</updated>
+    
+    <content type="html"><![CDATA[<p>为何要问他？复制成功的路。</p><span id="more"></span><h3 id="米歇尔-威廉姆斯："><a href="#米歇尔-威廉姆斯：" class="headerlink" title="米歇尔.威廉姆斯："></a>米歇尔.威廉姆斯：</h3><p>1.不要预测市场</p><p>2.必须控制损失</p><p>3.只在剧烈波动的交易日赚钱</p><p>剧烈上涨日，收盘价往往接近最高点。</p><p>剧烈下跌日，收盘价往往接近最低点。</p><blockquote><p>我的理解：中长线交易，重在执行，轻于预测</p></blockquote><h3 id="约翰·邓普顿："><a href="#约翰·邓普顿：" class="headerlink" title="约翰·邓普顿："></a>约翰·邓普顿：</h3><p>行情总在绝望中诞生，在半信半疑中成长，在憧憬中成熟，在希望中毁灭——约翰·邓普顿。</p><p>邓普顿的交易系统和理念不仅适用于期货市场，也适用于其他金融市场，如股票、外汇、债券等。他的交易系统和理念主要包括以下几个方面：</p><p>1.程序化交易：建立自己的交易系统，严格按照交易系统实施操作，排除外在因素干扰。交易系统应该包括市场分析、入市条件、出市条件、风险控制、资金管理等要素。</p><p>2.交易艺术：分析市场背后的逻辑，投资者的心理和情绪，以及市场的趋势和波动。利用技术指标和图形分析来辅助判断市场的走势和方向。</p><p>3.逆向投资：寻找那些被大众忽视或低估的优质股票，实行低买高卖的策略。在市场恐慌或低迷时买入，在市场狂热或高涨时卖出。</p><p>4.全球化投资：放眼全球，而不是只关注一点。在不同的国家、地区、行业中寻找投资机会，分散风险，提高收益。</p><p>5.长期投资：以长期的视角来看待市场和投资，不要被短期的波动所干扰或诱惑。选择那些具有良好基本面和成长潜力的股票，并持有到合适的时机。</p><blockquote><p>我的理解：短期的波动，不可忽视中长线方向</p></blockquote><h3 id="Van-K-Tharp，《超级交易员》作者："><a href="#Van-K-Tharp，《超级交易员》作者：" class="headerlink" title="Van K. Tharp，《超级交易员》作者："></a>Van K. Tharp，《超级交易员》作者：</h3><p>1.切忌轻言放弃，查清失败原因<br><a href="https://xnews.jin10.com/details/118645">https://xnews.jin10.com/details/118645</a></p><h3 id="米高·马加斯："><a href="#米高·马加斯：" class="headerlink" title="米高·马加斯："></a>米高·马加斯：</h3><p>留意转势</p><p>切勿孤注一掷</p><p>有风使尽帆，赢钱赢到尽</p><p>进退有度</p><p>必须独断独行</p><blockquote><p>我的理解：进退有度，避免了短线弱点；</p></blockquote><blockquote><p>我的理解：赢钱赢到尽，避免了中线弱点；</p></blockquote><blockquote><p>我的理解：独断独行，避免了长线弱点；</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;为何要问他？复制成功的路。&lt;/p&gt;</summary>
     
     
     
