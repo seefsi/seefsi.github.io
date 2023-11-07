@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>数据：用实际统计数据预测概率 | 交易之门 | 顶着晦气冲，接受晦气</title>
+  <title>统计数据：简化交易与概率计算 | 交易之门 | 顶着晦气冲，接受晦气</title>
 
   
   <meta name="author" content="seefsi">
   
 
   
-  <meta name="description" content="为何要预测？原本只是写脚本省时间，巧合下发现，个别信号大概率被搞鬼。">
+  <meta name="description" content="统计为预测服务。">
   
 
   
@@ -22,7 +22,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <meta property="og:title" content="数据：用实际统计数据预测概率"/>
+  <meta property="og:title" content="统计数据：简化交易与概率计算"/>
 
   <meta property="og:site_name" content="交易之门"/>
 
@@ -75,7 +75,7 @@
 
   
     
-    <h3 class="article-title"><span>数据：用实际统计数据预测概率</span></h3>
+    <h3 class="article-title"><span>统计数据：简化交易与概率计算</span></h3>
     
   
 
@@ -114,7 +114,7 @@
 
 <div id="toc" class="toc-article">
       <div class="toc-content">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-text">统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E5%88%9D%E7%BA%A7%E5%8A%9F%E8%83%BD"><span class="toc-text">统计初级功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E4%B8%AD%E7%BA%A7%E5%8A%9F%E8%83%BD"><span class="toc-text">统计中级功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E9%AB%98%E7%BB%88%E5%8A%9F%E8%83%BD"><span class="toc-text">统计高终功能</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%90%86%E8%AE%BA%E5%92%8C%E5%AE%9E%E9%AA%8C"><span class="toc-text">理论和实验</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%B9%E7%A0%81%E4%BA%A4%E6%98%93%E5%AD%A6"><span class="toc-text">筹码交易学</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E9%98%85%E8%AF%BB"><span class="toc-text">参考阅读</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1"><span class="toc-text">统计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95"><span class="toc-text">交易方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%90%86%E8%AE%BA"><span class="toc-text">理论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E9%AA%8C"><span class="toc-text">实验</span></a></li></ol></li></ol>
       </div>
 </div>
 <style>
@@ -126,105 +126,21 @@
 
 
 
-        <p>为何要预测？原本只是写脚本省时间，巧合下发现，个别信号大概率被搞鬼。</p>
+        <p>统计为预测服务。</p>
 <span id="more"></span>
 
-<h2 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h2><h3 id="统计初级功能"><a href="#统计初级功能" class="headerlink" title="统计初级功能"></a>统计初级功能</h3><p><strong>初级功能</strong>：为一些交易方法提供概率支持。</p>
-<p>如：</p>
-<p><strong>常用的交易方法</strong></p>
-<ul>
-<li><p><code>趋势交易</code>：趋势与价格是否背离，价格是否回调</p>
-</li>
-<li><p><code>背离行情</code>：</p>
-</li>
-<li><p><code>过夜盘</code>：需要程序试验</p>
-</li>
-<li><p><code>后夜盘</code>：睡觉前下限价单</p>
-</li>
-<li><p>隔天行情：如前一天的消息利空，要跌不跌，行情第2天才来。一般会在图形上形成入场机会。</p>
-</li>
-<li><p>微仓止赢法：不设止损或大止损，需要程序试验。如果有效，可以长做。如回调一半入场。</p>
-</li>
-<li><p>胜者恒胜法：想赢家之所想。赢家通吃。只做对的，不做赢的。</p>
-</li>
-<li><p>断气法：至少隔一天操作，隔一天立即操作。避免连续犯错。</p>
-</li>
-</ul>
-<p><strong>难用的交易方法</strong></p>
-<ul>
-<li><p>最佳预测不盯盘(做不到)</p>
-</li>
-<li><p>最佳盯盘不预测</p>
-</li>
-<li><p><code>最佳盘感</code>：能感知到市场的灵魂，是区间还是趋势、反转</p>
-</li>
-<li><p>反向操作：将习惯改成，与大行情同步，与主力同频。熟悉全部赚大钱的方式。</p>
-</li>
-<li><p>全向交易：逆势0.01手，顺势正常手数，为了减少方向判断失误。</p>
-</li>
-<li><p>主力回补：主力为了拉止损，后面可能会有对应的砸盘行情。</p>
-</li>
-<li><p>挂单交易：有效期一般是一个交易周，防止低开或高开。太弱行情，不想盯盘。</p>
-</li>
-</ul>
-<h3 id="统计中级功能"><a href="#统计中级功能" class="headerlink" title="统计中级功能"></a>统计中级功能</h3><p><strong>中级功能</strong>：“每一片叶子高度相似”，因此同信号、同形态可能会有相似的预测。</p>
-<ul>
-<li>功能略：后面再写，等我赢利了再说。</li>
-</ul>
-<h3 id="统计高终功能"><a href="#统计高终功能" class="headerlink" title="统计高终功能"></a>统计高终功能</h3><p><strong>高终功能</strong>：为预测服务。</p>
-<p><strong>正确的预测方法</strong></p>
-<ul>
-<li><p>预测而不执迷。市场推着我跑，而不是我推着市场跑。自己的预测，影响不了市场本来的行情。</p>
-</li>
-<li><p>盘感好的时候，天天赢。那么原理是什么呢？</p>
-</li>
-</ul>
-<p><strong>错误的预测方法</strong></p>
-<ul>
-<li><p>或者都没有预测，幻想着赢利就下单。期望着某个行情出现并拯救自己的单子。</p>
-</li>
-<li><p>越懂越不执迷，越不懂越执迷。</p>
-</li>
-<li><p>头脑清醒，才能在每天的极端情况中轻松获利。</p>
-</li>
-</ul>
-<h3 id="理论和实验"><a href="#理论和实验" class="headerlink" title="理论和实验"></a>理论和实验</h3><p><strong>指标</strong></p>
-<ul>
-<li><p>大反转信号后，非震荡行情是否都反转？</p>
-</li>
-<li><p>统计大周期下跌行情，指标的作用是否不同</p>
-</li>
-</ul>
-<p><strong>统计</strong></p>
-<ul>
-<li><p>统计每个小时方向与全天方向对比</p>
-</li>
-<li><p>统计每个M15方向与全天方向对比</p>
-</li>
-<li><p>每天的最高价、次高价、最低价、次低价</p>
-</li>
-<li><p>每天早中晚各自的最高价、次高价、最低价、次低价</p>
-</li>
-</ul>
-<p><strong>猜测待验证</strong></p>
-<ul>
-<li>预测后的形态编码</li>
-</ul>
-<h3 id="筹码交易学"><a href="#筹码交易学" class="headerlink" title="筹码交易学"></a>筹码交易学</h3><ul>
-<li><p>单峰坚挺，变盘在即：多空82开。低中位横久必涨</p>
-</li>
-<li><p>双峰对垒，高抛低吸：多空55开。震荡</p>
-</li>
-<li><p>多峰林立，行情不止：多空64开。主力已进场</p>
-</li>
-<li><p>上峰不移，别去抄底：多空46开。主力未跑完</p>
-</li>
-<li><p>下峰锁定，不离不弃：多空73开。清理浮筹(我感觉也可能是诱空进入)</p>
-</li>
-</ul>
-<h2 id="参考阅读"><a href="#参考阅读" class="headerlink" title="参考阅读"></a>参考阅读</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/629137293">筹码峰的实战干货，五大技巧口诀直击主力要害</a></li>
-</ul>
+<h2 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h2><h3 id="交易方法"><a href="#交易方法" class="headerlink" title="交易方法"></a>交易方法</h3><p><a href="https://seefsi.github.io/2023/11/06/trade_predict_method"><font color="#3C979F">交易方法总结➬</font></a></p>
+<p>为一些交易方法提供概率支持。</p>
+<h3 id="理论"><a href="#理论" class="headerlink" title="理论"></a>理论</h3><p><a href="https://seefsi.github.io/2023/11/06/trade_predict_leaves"><font color="#3C979F">形态总结➬</font></a></p>
+<p>“每一片叶子高度相似”，因此同信号、同形态可能会有相似的预测。</p>
+<p><a href="https://seefsi.github.io/2023/11/06/trade_predict_chip"><font color="#3C979F">筹码与心理分析➬</font></a></p>
+<p>人总是在最空虚的时候被利用。</p>
+<p><a href="https://seefsi.github.io/2023/11/06/trade_predict_chip"><font color="#3C979F">赢利感言➬</font></a></p>
+<p>保留最好的盘感状态，记录每次赢利的感受。</p>
+<h3 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h3><p><a href="https://seefsi.github.io/2023/11/06/trade_predict_market"><font color="#3C979F">真实的行情➬</font></a></p>
+<p>真实的行情。基础分析。</p>
+<p><a href="https://seefsi.github.io/2023/11/06/trade_predict_test"><font color="#3C979F">趣味性实验➬</font></a></p>
+<p>有趣的实验。比较深入的思考。</p>
 
       
     </div>

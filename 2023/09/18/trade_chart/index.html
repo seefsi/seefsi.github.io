@@ -114,7 +114,7 @@
 
 <div id="toc" class="toc-article">
       <div class="toc-content">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%A4%E6%98%93%E5%85%83%E7%B4%A0"><span class="toc-text">交易元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%A5%E5%9C%BA%E7%82%B9"><span class="toc-text">入场点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BA%E5%9C%BA%E7%82%B9"><span class="toc-text">出场点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%93%E4%BD%8D"><span class="toc-text">仓位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A2%E8%B5%A2"><span class="toc-text">止赢</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A2%E6%8D%9F"><span class="toc-text">止损</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A9%BA%E4%BB%93"><span class="toc-text">空仓</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%81%E4%BB%93"><span class="toc-text">持仓</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E7%9B%98"><span class="toc-text">复盘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%A2%E4%BA%8F%E6%AF%94"><span class="toc-text">赢亏比</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%A2%E5%88%A9%E6%9B%B2%E7%BA%BF"><span class="toc-text">赢利曲线</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%A4%E6%98%93%E5%85%83%E7%B4%A0"><span class="toc-text">交易元素</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%A5%E5%9C%BA%E7%82%B9"><span class="toc-text">入场点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BA%E5%9C%BA%E7%82%B9"><span class="toc-text">出场点</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%93%E4%BD%8D"><span class="toc-text">仓位</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A2%E8%B5%A2"><span class="toc-text">止赢</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AD%A2%E6%8D%9F"><span class="toc-text">止损</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A9%BA%E4%BB%93"><span class="toc-text">空仓</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%81%E4%BB%93"><span class="toc-text">持仓</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%A2%E4%BA%8F%E6%AF%94"><span class="toc-text">赢亏比</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%A2%E5%88%A9%E6%9B%B2%E7%BA%BF"><span class="toc-text">赢利曲线</span></a></li></ol></li></ol>
       </div>
 </div>
 <style>
@@ -130,8 +130,10 @@
 <span id="more"></span>
 
 <h2 id="交易元素"><a href="#交易元素" class="headerlink" title="交易元素"></a>交易元素</h2><h3 id="入场点"><a href="#入场点" class="headerlink" title="入场点"></a>入场点</h3><ul>
-<li><p>反向操作: 再次达到入场预期，等；未不到，进</p>
-</li>
+<li>反向操作: 再次达到入场预期，等；未不到，进</li>
+</ul>
+<p><font color="#8FD2E6">趋势入场点</font></p>
+<ul>
 <li><p>1~3次信号可以入: <code>弱势转强</code><br><img src="/img/system/action_20231005_01.png"></p>
 </li>
 <li><p>8~10次信号且波动&lt;$2左右也可以入:</p>
@@ -140,17 +142,25 @@
 </li>
 <li><p>回调过半可能入:</p>
 </li>
+</ul>
+<p><font color="#8FD2E6">震荡入场点</font></p>
+<ul>
 <li><p>弱势机会多:如预测到是盘整行情，那么入场点多，可以有选择合适的入场点。</p>
 </li>
 <li><p>回到成本区: 慢涨&#x2F;反复突破时，再回到成本区，可以继续拿</p>
 </li>
-<li><p>反弹转弱: 反弹-慢涨 -&gt; 弱势-慢跌 -&gt; 强势-快跌。(机会容易错过)</p>
+<li><p>反弹转弱: 反弹+慢涨 -&gt; 弱势+慢跌 -&gt; 强势+快跌。(机会容易错过)</p>
+</li>
+<li><p>加速上涨&#x2F;下跌机会: 若是震荡行情，说明在搞鬼；若是单边行情，说明观望进场。</p>
+</li>
+</ul>
+<p><font color="#8FD2E6">短线入场点</font></p>
+<ul>
+<li><p>技术机会：弱势行情，观察M5均线转折点。</p>
 </li>
 <li><p>技术机会：在M15线上找入场机会，避免随意交易。M30如果诱多，可能会砸盘。</p>
 </li>
 <li><p>不迷惑：不要被眼前迷惑，盯盘不要看当前是涨还是跌，而是看持单人为什么进。(强者心态)<br><img src="/img/trade/chart_20231009_01.png"></p>
-</li>
-<li><p>加速上涨&#x2F;下跌机会: 若是震荡行情，说明在搞鬼；若是单边行情，说明观望进场。</p>
 </li>
 <li><p>精神角度: 分享完进场，维护完进场，休养过半就进场。<br><img src="/img/trade/chart_20231016_03.png"><br><img src="/img/trade/chart_20231016_02.png"></p>
 </li>
@@ -159,6 +169,12 @@
 <li><p>位置: 逆势的开盘价、…。</p>
 </li>
 <li><p>位置: 被套时，以之前的入场价作为出场点做波段。</p>
+</li>
+<li><p>位置: 寻找新的多空平衡点，寻找当前背离的行情。</p>
+</li>
+<li><p>位置: 拐点，关注各种关键点位。</p>
+</li>
+<li><p>位置: 形态上，底部双底+回调，顶部三顶+回调。</p>
 </li>
 <li><p>弱势平仓: 不划算，反弹再平</p>
 </li>
@@ -223,12 +239,6 @@
 <li><p>搞鬼：低位横盘可能搞鬼，美盘要早点选择。</p>
 </li>
 <li><p>亏损抗仓：不确定方向全部平仓。做短线久了容易对着干。</p>
-</li>
-</ul>
-<h3 id="复盘"><a href="#复盘" class="headerlink" title="复盘"></a>复盘</h3><ul>
-<li><p>复盘分析：一般是客观的</p>
-</li>
-<li><p>大亏损：在55开的行情中，错误判断方向。盲目跟风或对着干。因此行情熟悉的越多越好。</p>
 </li>
 </ul>
 <h3 id="赢亏比"><a href="#赢亏比" class="headerlink" title="赢亏比"></a>赢亏比</h3><ul>
