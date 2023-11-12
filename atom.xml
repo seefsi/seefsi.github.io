@@ -42,9 +42,9 @@
     <link href="https://seefsi.github.io/2023/11/10/trade_target3/"/>
     <id>https://seefsi.github.io/2023/11/10/trade_target3/</id>
     <published>2023-11-10T10:00:00.000Z</published>
-    <updated>2023-11-10T20:12:52.531Z</updated>
+    <updated>2023-11-12T05:57:35.167Z</updated>
     
-    <content type="html"><![CDATA[<p>累积做交易试验，统计哪种策略该重复和继续，哪种策略行不通。</p><span id="more"></span><h2 id="当周计划"><a href="#当周计划" class="headerlink" title="当周计划"></a>当周计划</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p><font color="#3232CD">策略未确定</font>：如果当天不确定用哪种策略，可每种策略各选一天，这样有助于成长。<br>如果用固定策略，可避免因策略不合适强迫交易。<br>如果水平太差，也可一周全用默认选项。</p><h3 id="每日时间分配"><a href="#每日时间分配" class="headerlink" title="每日时间分配"></a>每日时间分配</h3><p><font color="#3232CD">作息时间</font>：定为 2:00PM ~ 1:00AM<br>上午时间，一般不做。除非有明确入场信号。<br>下午时间，每20 ~ 60min看一次行情，找下有没有符号条件的机会。<br>晚上，没下单时，最尽晚2点收工。下单了，赚尽收工。</p><h3 id="每周时间分配"><a href="#每周时间分配" class="headerlink" title="每周时间分配"></a>每周时间分配</h3><p><font color="#3232CD">选一天观望</font>：除非机会很好才会出手<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天剥头皮</font>：注意转势信号<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天做计划</font>：注意行情分类<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天试单</font>：为了进入完全没压力的交易状态，也是默认选项<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天逆向单</font>：送钱，反人性操作，关注对手的失误<br>目标：0&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天跟踪单</font>：跟踪对手，跟踪趋势<br>目标：0&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><h3 id="基础计划"><a href="#基础计划" class="headerlink" title="基础计划"></a>基础计划</h3><p><font color="#3232CD">仓位控制</font>：R&#x3D;0.1，即0.01手<br>由于当前状态不佳，采用最小仓位。等状态稳定再调整。<br>若交易熟悉的行情，可用正常仓位0.1手。</p><p><font color="#3232CD">盈亏计划</font>：无<br>用最小仓位交易，暂时不用管盈亏，统计结果稳定后再加仓。赚钱的种类才加仓。</p><p><font color="#3232CD">操作</font>：<br>频繁下单0.01手，备注好机会名称，方便后期总结。最小仓位直接限价出。<br>确认好机会就留意行情，找入场点，等待机会入场，验证后期行情，符合就持仓。</p><h2 id="下单类型"><a href="#下单类型" class="headerlink" title="下单类型"></a>下单类型</h2><h3 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h3><p><font color="#3232CD">盯盘</font>：整理错过的好机会，补充进来，完善此系统。<br>盯盘不一定是为了做单。有$1的差价的机会都行。</p><p><font color="#3232CD">目标</font>：目标从限价$0.5开始练手，不要轻易超过$1.0。</p><p><font color="#3232CD">条件</font>：错过不入。<br>先总结条件，条件错了再修正。尽量埋伏入场，没有埋伏那就下次再做。<br>条件要写得详细简单，一看就知道要不要做。</p><p><font color="#3232CD">反馈</font>：<br>反馈到次数上。用$100可以输多少次单来评价水平。</p><p><font color="#3232CD">目的</font>：<br>目的是为了交易最好的行情，因此试单也不能越试越乱。也是为了多劳致富。</p><h3 id="短线类"><a href="#短线类" class="headerlink" title="短线类"></a>短线类</h3><p><font color="#3232CD">M1信号N字</font>：从拐点开始出现N字信号，再回调入场，可能回调有点强，不怕。<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M1信号诱多左</font>：M5刚刚突破，N字没有新高<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#FF2400">M1信号诱多右</font>：趋势线左侧高点横盘，后面直接突破趋势线，可跟入<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#FF2400">M5双顶</font>：M15在中性上，可能多转空、空转多<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5次双顶</font>：M15在阻力位置<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5均线转折点</font>：震荡行情中，多转空、空转多<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5均线突破</font>：震荡行情中，突破后又回调<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M15支撑</font>：震荡行情中，M15中找入场点，M1中找出场点<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30诱多诱空左</font>：不进，可能会砸盘<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30诱多诱空右</font>：试下跟进<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30信号十字</font>：隔天操作，不稳定行情未必都赚钱，今天可能比较顺<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30隔天操作顺势</font>：抄底+砸盘+抄底，M5+H2转势信号<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30隔天操作转势</font>：抄底+砸盘+抄底，一定要有亏钱，或赚太多，不到美盘不做<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">H2顺势支撑</font>：V形反转<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">H2转势支撑左</font>：回落到M5均线<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#FF2400">H2转势支撑右</font>：M支撑–双顶进，M1不破不出，移动止损出场<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#FF2400">H2转势阻力右</font>：M支撑转W阻力，吃一波就跑，再入场；可能做笼子，不进场错过一大波。<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">H4中长线</font>：<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><h3 id="趋势类"><a href="#趋势类" class="headerlink" title="趋势类"></a>趋势类</h3><p>趋势类都可以参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E8%B6%8B%E5%8A%BF%E8%B7%9F%E9%9A%8F"><font color="#6B4226">趋势跟随➬</font></a></p><p><font color="#FF2400">顺势跟单</font>：配合剥头皮的右侧机会做长线<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势跟单</font>：抄底要抄稳定行情，均匀走势；回调过半可入；<br>目标：0&#x2F;2次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势反弹右侧跟踪拐点</font>：高点横盘后再突破又回落到横盘位置下<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">顺势回调右</font>：连续阴跌<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势H1趋势线左</font>：阻力转支撑，不知道目标位在哪<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势H1趋势线右</font>：阻力转支撑，不知道目标位在哪<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="震荡趋势类"><a href="#震荡趋势类" class="headerlink" title="震荡趋势类"></a>震荡趋势类</h3><p>震荡趋势类参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E4%BD%8E%E4%BD%8D%E5%80%92V%E5%BD%A2"><font color="#6B4226">低位倒V形➬</font></a></p><p><font color="#FF2400">低位倒V形</font>：双顶入场，次双顶入场，多重信号同步，最好限价入场。<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><h3 id="价格类"><a href="#价格类" class="headerlink" title="价格类"></a>价格类</h3><p>价格类都可以参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E6%9C%80%E9%AB%98%E7%82%B9"><font color="#6B4226">最高点和次高点➬</font></a>：</p><p><font color="#3232CD">空头全天最高点</font>：<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">空头全天最低点</font>：<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">多头全天最低点</font>：<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">多头全天最高点</font>：<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="不看好类"><a href="#不看好类" class="headerlink" title="不看好类"></a>不看好类</h3><p><font color="#3232CD">顺势V型左</font>：震荡位置突破预测<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">顺势V型右</font>：回到震荡位置，美盘前等确认信号<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="测试类"><a href="#测试类" class="headerlink" title="测试类"></a>测试类</h3><p><font color="#3232CD">过夜单</font>：<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">风险单</font>：<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><h3 id="逆向类"><a href="#逆向类" class="headerlink" title="逆向类"></a>逆向类</h3><p><font color="#3232CD">不稳定行情左</font>：突破必出<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">不稳定行情右</font>：反人性操作，跟单入场被坑<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">被坑行情确认</font>：支撑变阻力，1个位置被坑来回次数越多越确定<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p>]]></content>
+    <content type="html"><![CDATA[<p>累积做交易试验，统计哪种策略该重复和继续，哪种策略行不通。</p><span id="more"></span><h2 id="当周计划"><a href="#当周计划" class="headerlink" title="当周计划"></a>当周计划</h2><h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p><font color="#3232CD">策略未确定</font>：如果当天不确定用哪种策略，可每种策略各选一天，这样有助于成长。<br>如果用固定策略，可避免因策略不合适强迫交易。<br>如果水平太差，也可一周全用默认选项。</p><p><font color="#3232CD">习惯未确定</font>：小仓炼习惯，大仓炼心情。<br>习惯是基础。<br>所以心情越差越喜欢炼心情？运气越好越喜欢炼习惯？</p><h3 id="每日时间分配"><a href="#每日时间分配" class="headerlink" title="每日时间分配"></a>每日时间分配</h3><p><font color="#3232CD">作息时间</font>：定为 2:00PM ~ 1:00AM<br>上午时间，一般不做。除非有明确入场信号。<br>下午时间，每20 ~ 60min看一次行情，找下有没有符号条件的机会。<br>晚上，没下单时，最尽晚2点收工。下单了，赚尽收工。</p><h3 id="每周时间分配"><a href="#每周时间分配" class="headerlink" title="每周时间分配"></a>每周时间分配</h3><p><font color="#3232CD">选一天观望</font>：除非机会很好才会出手<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天剥头皮</font>：注意转势信号<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天做计划</font>：注意行情分类<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天试单</font>：为了进入完全没压力的交易状态，也是默认选项<br>目标：1&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天逆向单</font>：送钱，反人性操作，关注对手的失误<br>目标：0&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><p><font color="#3232CD">选一天跟踪单</font>：跟踪对手，跟踪趋势<br>目标：0&#x2F;5，当前：0&#x2F;5，累计：0&#x2F;5</p><h3 id="基础计划"><a href="#基础计划" class="headerlink" title="基础计划"></a>基础计划</h3><p><font color="#3232CD">仓位控制</font>：R&#x3D;0.1，即0.01手<br>由于当前状态不佳，采用最小仓位。等状态稳定再调整。<br>若交易熟悉的行情，可用正常仓位0.1手。</p><p><font color="#3232CD">盈亏计划</font>：无<br>用最小仓位交易，暂时不用管盈亏，统计结果稳定后再加仓。赚钱的种类才加仓。</p><p><font color="#3232CD">操作</font>：<br>频繁下单0.01手，备注好机会名称，方便后期总结。最小仓位直接限价出。<br>确认好机会就留意行情，找入场点，等待机会入场，验证后期行情，符合就持仓。</p><h2 id="下单类型"><a href="#下单类型" class="headerlink" title="下单类型"></a>下单类型</h2><h3 id="说明-1"><a href="#说明-1" class="headerlink" title="说明"></a>说明</h3><p><font color="#3232CD">盯盘</font>：整理错过的好机会，补充进来，完善此系统。<br>盯盘不一定是为了做单。有$1的差价的机会都行。</p><p><font color="#3232CD">目标</font>：目标从限价$0.5开始练手，不要轻易超过$1.0。</p><p><font color="#3232CD">条件</font>：错过不入。<br>先总结条件，条件错了再修正。尽量埋伏入场，没有埋伏那就下次再做。<br>条件要写得详细简单，一看就知道要不要做。</p><p><font color="#3232CD">反馈</font>：<br>反馈到次数上。用$100可以输多少次单来评价水平。</p><p><font color="#3232CD">目的</font>：<br>目的是为了交易最好的行情，因此试单也不能越试越乱。也是为了多劳致富。</p><h3 id="短线类"><a href="#短线类" class="headerlink" title="短线类"></a>短线类</h3><p><font color="#3232CD">M1信号N字</font>：从拐点开始出现N字信号，再回调入场，可能回调有点强，不怕。<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M1信号诱多左</font>：M5刚刚突破，N字没有新高<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#FF2400">M1信号诱多右</font>：趋势线左侧高点横盘，后面直接突破趋势线，可跟入<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#FF2400">M5双顶</font>：M15在中性上，可能多转空、空转多<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5次双顶</font>：M15在阻力位置<br>目标：0&#x2F;20次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5均线转折点</font>：震荡行情中，多转空、空转多<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M5均线突破</font>：震荡行情中，突破后又回调<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M15支撑</font>：震荡行情中，M15中找入场点，M1中找出场点<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30诱多诱空左</font>：不进，可能会砸盘<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30诱多诱空右</font>：试下跟进<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30信号十字</font>：隔天操作，不稳定行情未必都赚钱，今天可能比较顺<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30隔天操作顺势</font>：抄底+砸盘+抄底，M5+H2转势信号<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">M30隔天操作转势</font>：抄底+砸盘+抄底，一定要有亏钱，或赚太多，不到美盘不做<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">H2顺势支撑</font>：V形反转<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">H2转势支撑左</font>：回落到M5均线<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#FF2400">H2转势支撑右</font>：M支撑–双顶进，M1不破不出，移动止损出场<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#FF2400">H2转势阻力右</font>：M支撑转W阻力，吃一波就跑，再入场；可能做笼子，不进场错过一大波。<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">H4中长线</font>：<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><h3 id="趋势类"><a href="#趋势类" class="headerlink" title="趋势类"></a>趋势类</h3><p>趋势类都可以参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E8%B6%8B%E5%8A%BF%E8%B7%9F%E9%9A%8F"><font color="#6B4226">趋势跟随➬</font></a></p><p><font color="#FF2400">顺势跟单</font>：配合剥头皮的右侧机会做长线<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势跟单</font>：抄底要抄稳定行情，均匀走势；回调过半可入；<br>目标：0&#x2F;2次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势反弹右侧跟踪拐点</font>：高点横盘后再突破又回落到横盘位置下<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">顺势回调右</font>：连续阴跌<br>目标：0&#x2F;10次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势H1趋势线左</font>：阻力转支撑，不知道目标位在哪<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">转势H1趋势线右</font>：阻力转支撑，不知道目标位在哪<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="震荡趋势类"><a href="#震荡趋势类" class="headerlink" title="震荡趋势类"></a>震荡趋势类</h3><p>震荡趋势类参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E4%BD%8E%E4%BD%8D%E5%80%92V%E5%BD%A2"><font color="#6B4226">低位倒V形➬</font></a></p><p><font color="#FF2400">低位倒V形</font>：双顶入场，次双顶入场，多重信号同步，最好限价入场。<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#FF2400">活盘跟进</font>：短期利尽，回归趋势出现稳定行情。<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><h3 id="价格类"><a href="#价格类" class="headerlink" title="价格类"></a>价格类</h3><p>价格类都可以参考：<a href="https://seefsi.github.io/2023/11/06/trade_predict_method2#%E6%9C%80%E9%AB%98%E7%82%B9"><font color="#6B4226">最高点和次高点➬</font></a>：</p><p><font color="#3232CD">空头全天最高点</font>：<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">空头全天最低点</font>：<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">多头全天最低点</font>：<br>目标：0&#x2F;3次，当前：0&#x2F;0次</p><p><font color="#3232CD">多头全天最高点</font>：<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="不看好类"><a href="#不看好类" class="headerlink" title="不看好类"></a>不看好类</h3><p><font color="#3232CD">顺势V型左</font>：震荡位置突破预测<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">顺势V型右</font>：回到震荡位置，美盘前等确认信号<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><h3 id="测试类"><a href="#测试类" class="headerlink" title="测试类"></a>测试类</h3><p><font color="#3232CD">过夜单</font>：<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">风险单</font>：<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><h3 id="逆向类"><a href="#逆向类" class="headerlink" title="逆向类"></a>逆向类</h3><p><font color="#3232CD">不稳定行情左</font>：突破必出<br>目标：0&#x2F;1次，当前：0&#x2F;0次</p><p><font color="#3232CD">不稳定行情右</font>：反人性操作，跟单入场被坑<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p><p><font color="#3232CD">被坑行情确认</font>：支撑变阻力，1个位置被坑来回次数越多越确定<br>目标：0&#x2F;5次，当前：0&#x2F;0次</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;累积做交易试验，统计哪种策略该重复和继续，哪种策略行不通。&lt;/p&gt;</summary>
@@ -59,16 +59,16 @@
   </entry>
   
   <entry>
-    <title>筹码与心理分析</title>
-    <link href="https://seefsi.github.io/2023/11/06/trade_predict_chip/"/>
-    <id>https://seefsi.github.io/2023/11/06/trade_predict_chip/</id>
+    <title>真实的行情</title>
+    <link href="https://seefsi.github.io/2023/11/06/trade_predict_market/"/>
+    <id>https://seefsi.github.io/2023/11/06/trade_predict_market/</id>
     <published>2023-11-06T10:00:00.000Z</published>
-    <updated>2023-11-10T13:30:30.866Z</updated>
+    <updated>2023-11-10T13:30:30.928Z</updated>
     
-    <content type="html"><![CDATA[<p>人总是在最空虚的时候被利用。</p><span id="more"></span><h2 id="心理分析"><a href="#心理分析" class="headerlink" title="心理分析"></a>心理分析</h2><h3 id="筹码交易学"><a href="#筹码交易学" class="headerlink" title="筹码交易学"></a>筹码交易学</h3><ul><li><p>单峰坚挺，变盘在即：多空82开。低中位横久必涨</p></li><li><p>双峰对垒，高抛低吸：多空55开。震荡</p></li><li><p>多峰林立，行情不止：多空64开。主力已进场</p></li><li><p>上峰不移，别去抄底：多空46开。主力未跑完</p></li><li><p>下峰锁定，不离不弃：多空73开。清理浮筹(我感觉也可能是诱空进入)</p></li></ul><p><strong>参考阅读</strong></p><ul><li><a href="https://zhuanlan.zhihu.com/p/629137293">筹码峰的实战干货，五大技巧口诀直击主力要害</a></li></ul><h3 id="动机与概率"><a href="#动机与概率" class="headerlink" title="动机与概率"></a>动机与概率</h3><p><font color="#3232CD">做事出发点的精神段位越高，成功概率越高</font>：<br>精底50%胜率，气底75%胜率，神底87%胜率，鬼底93%胜率，无底96%胜率。<br>养成算概率习惯<br>其实还有个坚底，没有形态，坚持到破位或疲软就出场。<br>段位越低越急<br>提升段位，在做人上是为了消灭傻逼，在交易上是为了不让更多人赚钱。</p><h3 id="角色与成败"><a href="#角色与成败" class="headerlink" title="角色与成败"></a>角色与成败</h3><p><font color="#3232CD">角色不同，看法不同</font>：<br>牛比较贪执，有草吃就一直拿。<br>狼比较狠绝，直接拉到阻力位，或拉破。<br>牛熬得屎，狼熬得食。</p>]]></content>
+    <content type="html"><![CDATA[<p>真实的行情。</p><span id="more"></span><h2 id="行情"><a href="#行情" class="headerlink" title="行情"></a>行情</h2><h3 id="常用统计"><a href="#常用统计" class="headerlink" title="常用统计"></a>常用统计</h3><p>&#x2F;&#x2F; 历史形态汇总</p><p>&#x2F;&#x2F; 常用统计，如每年涨跌幅+比例</p><h3 id=""><a href="#" class="headerlink" title=""></a></h3><p>重新测试2067美元、2070.63美元和2075.28美元的水平<br>自2020年8月7日以来，最活跃的黄金期货盘中历史新高为2089.20美元。</p><p>量能统计—日线涨跌，对比</p><p>统计周末持仓风险</p><p>统计非农影响</p><p>统计非农盘前盘后10M关联，如黄金，欧美<br>统计非农盘前盘后最高高低关联，如黄金，欧美</p><p>统计周1~周5，一般哪天波动大</p><p>统计周1~周5，哪天是单边</p><p>年底前金价确实可能再度触及2000美元</p><h3 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h3><p>统计成本区</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;人总是在最空虚的时候被利用。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;真实的行情。&lt;/p&gt;</summary>
     
     
     
@@ -80,16 +80,16 @@
   </entry>
   
   <entry>
-    <title>真实的行情</title>
-    <link href="https://seefsi.github.io/2023/11/06/trade_predict_market/"/>
-    <id>https://seefsi.github.io/2023/11/06/trade_predict_market/</id>
+    <title>筹码与心理分析</title>
+    <link href="https://seefsi.github.io/2023/11/06/trade_predict_chip/"/>
+    <id>https://seefsi.github.io/2023/11/06/trade_predict_chip/</id>
     <published>2023-11-06T10:00:00.000Z</published>
-    <updated>2023-11-10T13:30:30.928Z</updated>
+    <updated>2023-11-10T13:30:30.866Z</updated>
     
-    <content type="html"><![CDATA[<p>真实的行情。</p><span id="more"></span><h2 id="行情"><a href="#行情" class="headerlink" title="行情"></a>行情</h2><h3 id="常用统计"><a href="#常用统计" class="headerlink" title="常用统计"></a>常用统计</h3><p>&#x2F;&#x2F; 历史形态汇总</p><p>&#x2F;&#x2F; 常用统计，如每年涨跌幅+比例</p><h3 id=""><a href="#" class="headerlink" title=""></a></h3><p>重新测试2067美元、2070.63美元和2075.28美元的水平<br>自2020年8月7日以来，最活跃的黄金期货盘中历史新高为2089.20美元。</p><p>量能统计—日线涨跌，对比</p><p>统计周末持仓风险</p><p>统计非农影响</p><p>统计非农盘前盘后10M关联，如黄金，欧美<br>统计非农盘前盘后最高高低关联，如黄金，欧美</p><p>统计周1~周5，一般哪天波动大</p><p>统计周1~周5，哪天是单边</p><p>年底前金价确实可能再度触及2000美元</p><h3 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h3><p>统计成本区</p>]]></content>
+    <content type="html"><![CDATA[<p>人总是在最空虚的时候被利用。</p><span id="more"></span><h2 id="心理分析"><a href="#心理分析" class="headerlink" title="心理分析"></a>心理分析</h2><h3 id="筹码交易学"><a href="#筹码交易学" class="headerlink" title="筹码交易学"></a>筹码交易学</h3><ul><li><p>单峰坚挺，变盘在即：多空82开。低中位横久必涨</p></li><li><p>双峰对垒，高抛低吸：多空55开。震荡</p></li><li><p>多峰林立，行情不止：多空64开。主力已进场</p></li><li><p>上峰不移，别去抄底：多空46开。主力未跑完</p></li><li><p>下峰锁定，不离不弃：多空73开。清理浮筹(我感觉也可能是诱空进入)</p></li></ul><p><strong>参考阅读</strong></p><ul><li><a href="https://zhuanlan.zhihu.com/p/629137293">筹码峰的实战干货，五大技巧口诀直击主力要害</a></li></ul><h3 id="动机与概率"><a href="#动机与概率" class="headerlink" title="动机与概率"></a>动机与概率</h3><p><font color="#3232CD">做事出发点的精神段位越高，成功概率越高</font>：<br>精底50%胜率，气底75%胜率，神底87%胜率，鬼底93%胜率，无底96%胜率。<br>养成算概率习惯<br>其实还有个坚底，没有形态，坚持到破位或疲软就出场。<br>段位越低越急<br>提升段位，在做人上是为了消灭傻逼，在交易上是为了不让更多人赚钱。</p><h3 id="角色与成败"><a href="#角色与成败" class="headerlink" title="角色与成败"></a>角色与成败</h3><p><font color="#3232CD">角色不同，看法不同</font>：<br>牛比较贪执，有草吃就一直拿。<br>狼比较狠绝，直接拉到阻力位，或拉破。<br>牛熬得屎，狼熬得食。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;真实的行情。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;人总是在最空虚的时候被利用。&lt;/p&gt;</summary>
     
     
     
@@ -122,25 +122,6 @@
   </entry>
   
   <entry>
-    <title>跟随类交易方法总结</title>
-    <link href="https://seefsi.github.io/2023/11/06/trade_predict_method2/"/>
-    <id>https://seefsi.github.io/2023/11/06/trade_predict_method2/</id>
-    <published>2023-11-06T10:00:00.000Z</published>
-    <updated>2023-11-10T19:05:34.123Z</updated>
-    
-    <content type="html"><![CDATA[<p>小机会，大收获。奶在哪个区间，没有奶不强求。</p><span id="more"></span><h2 id="交易方法"><a href="#交易方法" class="headerlink" title="交易方法"></a>交易方法</h2><h3 id="拐点突破"><a href="#拐点突破" class="headerlink" title="拐点突破"></a>拐点突破</h3><p><font color="#3232CD">动机</font>：跟随交易信号。</p><p><font color="#3232CD">操作</font>：<br>由主趋势线、次级趋势线组成。<br>次级上涨趋势遵循的量价关系：价涨量增<br>次级下跌趋势遵循的量价关系：价跌量缩<br>突破趋势线拐点的量价关系：放量的趋势K线（中长实体K线）<br>突破趋势线的预警信号：反转K线（锤子线、孕线、吞没线）、顶分型和底分型</p><p><font color="#3232CD">特征</font>：加速破位时注意跟随，横盘可能是大资金博弈<br><img src="/img/system/predict_20231110_01.png"></p><p><font color="#3232CD">特征汇总</font>：来源网上–老K交易。<br><img src="/img/system/predict_20231107_04.png"></p><h3 id="波段交易"><a href="#波段交易" class="headerlink" title="波段交易"></a>波段交易</h3><p><font color="#3232CD">动机</font>：看好行情。</p><p><font color="#3232CD">风险</font>：风险大，一定是逆向操作。</p><p><font color="#3232CD">操作</font>：入场更早、出场也更早。</p><p><font color="#3232CD">入场点</font>：选择单边交易，要么做左侧一波，要么做右侧回调一波。</p><p><font color="#3232CD">不同于趋势交易</font>：<br>趋势交易是要等趋势确定了才跟进，等趋势真正走完，才会出场。<br>入场更晚，持仓更久，而且要加仓的。利润主要来源于超长的趋势和利滚利的加仓。</p><p><font color="#3232CD">特征</font>：<br>后面补。</p><h3 id="趋势跟随"><a href="#趋势跟随" class="headerlink" title="趋势跟随"></a>趋势跟随</h3><p><font color="#3232CD">动机</font>：小机会，大收获。收获第1批利润。</p><p><font color="#3232CD">风险</font>：风险不大，损失一个波段交易机会。</p><p><font color="#3232CD">操作</font>：不破位不出场。</p><p><font color="#3232CD">入场点</font>：<br>回调过半可入。回调时突破无力入场最佳。<br>小目标位置反弹无力入场次佳。<br>继续破位也可入场。<br>等回调位置，但不一定有机会。低位回调就别入了，小心V回去。</p><p><font color="#3232CD">特征</font>：<br>长时间横盘遇到大阴线或大阳线。$1.5~$3不等。<br><img src="/img/system/predict_20231108_01.png"></p><h3 id="低位V形"><a href="#低位V形" class="headerlink" title="低位V形"></a>低位V形</h3><p><font color="#3232CD">动机</font>：左侧是低位砸盘收益不大。</p><p><font color="#3232CD">风险</font>：最好用左侧利润博右侧机会，不然逆向不划算。</p><p><font color="#3232CD">操作</font>：逆向采用小止损。先小止损后大止损。</p><p><font color="#3232CD">入场点</font>：M1均线突破跟随。</p><p><font color="#3232CD">特征</font>：左侧方向，盘横后突破一般先走重复性行情。<br>后面补。</p><h3 id="低位倒V形"><a href="#低位倒V形" class="headerlink" title="低位倒V形"></a>低位倒V形</h3><p><font color="#3232CD">动机</font>：右侧可能是多转空、空转多。</p><p><font color="#3232CD">风险</font>：不大。H2上可能有支撑，但支撑不大。</p><p><font color="#3232CD">操作</font>：对手盘不多，需要等待。</p><p><font color="#3232CD">入场点</font>：M5双顶、M15均线逢高做空。<br>震荡时遇双顶阻力都可入场。<br>最好限价入。好的入场点容易错过。</p><p><font color="#3232CD">特征</font>：行情复杂，周期长，多重信号同步，等到最后会加速获利。<br><img src="/img/system/predict_20231110_02.png"></p><h3 id="滚球交易"><a href="#滚球交易" class="headerlink" title="滚球交易"></a>滚球交易</h3><p><font color="#3232CD">动机</font>：高点一定会回落，低点一定反弹。<br>弱势行情，有上破就有下砸。</p><p><font color="#3232CD">风险</font>：风险中等，看水平。<br>盘感最接近这种方式。10分钟没看盘会有预感球落在何处。</p><p><font color="#3232CD">操作</font>：收益未知，注意盯盘。</p><p><font color="#3232CD">特征</font>：<br>中间反弹只会让雪球更大。<br>N字行情。初位越弹越大，末位越弹越小。<br>后面补。</p><h3 id="逆向交易"><a href="#逆向交易" class="headerlink" title="逆向交易"></a>逆向交易</h3><p><font color="#3232CD">动机</font>：错过行情，心情不好。<br>送钱。最好美盘再送钱。</p><p><font color="#3232CD">风险</font>：一般比较贪，仓位重。不可能谨慎。<br>可能压力大，分散注意力试下。<br>没做顺势单，拿到利润时，最好不要做逆势单。心态都不对。</p><p><font color="#3232CD">操作</font>：<br>大波动时，第一次正向，第二次反向。<br>第一次反向大概率被杀，被杀的头皮都吃不到。</p><p><font color="#3232CD">特征</font>：<br>后面补。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;小机会，大收获。奶在哪个区间，没有奶不强求。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="交易方法" scheme="https://seefsi.github.io/tags/%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>识别类交易方法总结</title>
     <link href="https://seefsi.github.io/2023/11/06/trade_predict_method/"/>
     <id>https://seefsi.github.io/2023/11/06/trade_predict_method/</id>
@@ -160,16 +141,16 @@
   </entry>
   
   <entry>
-    <title>跟踪类交易方法总结</title>
-    <link href="https://seefsi.github.io/2023/11/06/trade_predict_method3/"/>
-    <id>https://seefsi.github.io/2023/11/06/trade_predict_method3/</id>
+    <title>跟随类交易方法总结</title>
+    <link href="https://seefsi.github.io/2023/11/06/trade_predict_method2/"/>
+    <id>https://seefsi.github.io/2023/11/06/trade_predict_method2/</id>
     <published>2023-11-06T10:00:00.000Z</published>
-    <updated>2023-11-10T13:35:34.295Z</updated>
+    <updated>2023-11-10T19:05:34.123Z</updated>
     
-    <content type="html"><![CDATA[<p>占据有利地位。最高点或次高点。</p><span id="more"></span><h2 id="交易方法"><a href="#交易方法" class="headerlink" title="交易方法"></a>交易方法</h2><h3 id="最高点"><a href="#最高点" class="headerlink" title="最高点"></a>最高点</h3><p><font color="#665048">动机</font>：不容易被打败。<br>跟踪对手。</p><p><font color="#665048">风险</font>：顺势做<br>风险中等。</p><p><font color="#665048">操作</font>：<br>一定要比对手优势。</p><p><font color="#665048">入场点</font>：<br>预测多次，进多次，最多3次。</p><p><font color="#665048">特征</font>：<br>后面补。<br>一般在盘初或盘尾入场。越打越弱。</p><h3 id="次高点"><a href="#次高点" class="headerlink" title="次高点"></a>次高点</h3><p><font color="#665048">动机</font>：<br>跟踪对手。</p><p><font color="#665048">风险</font>：顺势做<br>风险中等。</p><p><font color="#665048">操作</font>：<br>一定要比对手优势。</p><p><font color="#665048">入场点</font>：<br>最高点回落，破了支撑。<br>或者没进就找一个次要的。隔天操作更稳。</p><p><font color="#665048">特征</font>：<br>后面补。</p>]]></content>
+    <content type="html"><![CDATA[<p>小机会，大收获。奶在哪个区间，没有奶不强求。</p><span id="more"></span><h2 id="交易方法"><a href="#交易方法" class="headerlink" title="交易方法"></a>交易方法</h2><h3 id="拐点突破"><a href="#拐点突破" class="headerlink" title="拐点突破"></a>拐点突破</h3><p><font color="#3232CD">动机</font>：跟随交易信号。</p><p><font color="#3232CD">操作</font>：<br>由主趋势线、次级趋势线组成。<br>次级上涨趋势遵循的量价关系：价涨量增<br>次级下跌趋势遵循的量价关系：价跌量缩<br>突破趋势线拐点的量价关系：放量的趋势K线（中长实体K线）<br>突破趋势线的预警信号：反转K线（锤子线、孕线、吞没线）、顶分型和底分型</p><p><font color="#3232CD">特征</font>：加速破位时注意跟随，横盘可能是大资金博弈<br><img src="/img/system/predict_20231110_01.png"></p><p><font color="#3232CD">特征汇总</font>：来源网上–老K交易。<br><img src="/img/system/predict_20231107_04.png"></p><h3 id="波段交易"><a href="#波段交易" class="headerlink" title="波段交易"></a>波段交易</h3><p><font color="#3232CD">动机</font>：看好行情。</p><p><font color="#3232CD">风险</font>：风险大，一定是逆向操作。</p><p><font color="#3232CD">操作</font>：入场更早、出场也更早。</p><p><font color="#3232CD">入场点</font>：选择单边交易，要么做左侧一波，要么做右侧回调一波。</p><p><font color="#3232CD">不同于趋势交易</font>：<br>趋势交易是要等趋势确定了才跟进，等趋势真正走完，才会出场。<br>入场更晚，持仓更久，而且要加仓的。利润主要来源于超长的趋势和利滚利的加仓。</p><p><font color="#3232CD">特征</font>：<br>后面补。</p><h3 id="趋势跟随"><a href="#趋势跟随" class="headerlink" title="趋势跟随"></a>趋势跟随</h3><p><font color="#3232CD">动机</font>：小机会，大收获。收获第1批利润。</p><p><font color="#3232CD">风险</font>：风险不大，损失一个波段交易机会。</p><p><font color="#3232CD">操作</font>：不破位不出场。</p><p><font color="#3232CD">入场点</font>：<br>回调过半可入。回调时突破无力入场最佳。<br>小目标位置反弹无力入场次佳。<br>继续破位也可入场。<br>等回调位置，但不一定有机会。低位回调就别入了，小心V回去。</p><p><font color="#3232CD">特征</font>：<br>长时间横盘遇到大阴线或大阳线。$1.5~$3不等。<br><img src="/img/system/predict_20231108_01.png"></p><h3 id="低位V形"><a href="#低位V形" class="headerlink" title="低位V形"></a>低位V形</h3><p><font color="#3232CD">动机</font>：左侧是低位砸盘收益不大。</p><p><font color="#3232CD">风险</font>：最好用左侧利润博右侧机会，不然逆向不划算。</p><p><font color="#3232CD">操作</font>：逆向采用小止损。先小止损后大止损。</p><p><font color="#3232CD">入场点</font>：M1均线突破跟随。</p><p><font color="#3232CD">特征</font>：左侧方向，盘横后突破一般先走重复性行情。<br>后面补。</p><h3 id="低位倒V形"><a href="#低位倒V形" class="headerlink" title="低位倒V形"></a>低位倒V形</h3><p><font color="#3232CD">动机</font>：右侧可能是多转空、空转多。</p><p><font color="#3232CD">风险</font>：不大。H2上可能有支撑，但支撑不大。</p><p><font color="#3232CD">操作</font>：对手盘不多，需要等待。</p><p><font color="#3232CD">入场点</font>：M5双顶、M15均线逢高做空。<br>震荡时遇双顶阻力都可入场。<br>最好限价入。好的入场点容易错过。</p><p><font color="#3232CD">特征</font>：行情复杂，周期长，多重信号同步，等到最后会加速获利。<br><img src="/img/system/predict_20231110_02.png"></p><h3 id="滚球交易"><a href="#滚球交易" class="headerlink" title="滚球交易"></a>滚球交易</h3><p><font color="#3232CD">动机</font>：高点一定会回落，低点一定反弹。<br>弱势行情，有上破就有下砸。</p><p><font color="#3232CD">风险</font>：风险中等，看水平。<br>盘感最接近这种方式。10分钟没看盘会有预感球落在何处。</p><p><font color="#3232CD">操作</font>：收益未知，注意盯盘。</p><p><font color="#3232CD">特征</font>：<br>中间反弹只会让雪球更大。<br>N字行情。初位越弹越大，末位越弹越小。<br>后面补。</p><h3 id="逆向交易"><a href="#逆向交易" class="headerlink" title="逆向交易"></a>逆向交易</h3><p><font color="#3232CD">动机</font>：错过行情，心情不好。<br>送钱。最好美盘再送钱。</p><p><font color="#3232CD">风险</font>：一般比较贪，仓位重。不可能谨慎。<br>可能压力大，分散注意力试下。<br>没做顺势单，拿到利润时，最好不要做逆势单。心态都不对。</p><p><font color="#3232CD">操作</font>：<br>大波动时，第一次正向，第二次反向。<br>第一次反向大概率被杀，被杀的头皮都吃不到。</p><p><font color="#3232CD">特征</font>：<br>后面补。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;占据有利地位。最高点或次高点。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;小机会，大收获。奶在哪个区间，没有奶不强求。&lt;/p&gt;</summary>
     
     
     
@@ -198,23 +179,21 @@
   </entry>
   
   <entry>
-    <title>有趣的实验</title>
-    <link href="https://seefsi.github.io/2023/11/06/trade_predict_test/"/>
-    <id>https://seefsi.github.io/2023/11/06/trade_predict_test/</id>
+    <title>跟踪类交易方法总结</title>
+    <link href="https://seefsi.github.io/2023/11/06/trade_predict_method3/"/>
+    <id>https://seefsi.github.io/2023/11/06/trade_predict_method3/</id>
     <published>2023-11-06T10:00:00.000Z</published>
-    <updated>2023-11-10T13:30:31.053Z</updated>
+    <updated>2023-11-10T13:35:34.295Z</updated>
     
-    <content type="html"><![CDATA[<p>有趣的实验。</p><span id="more"></span><h2 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h2><h3 id="指标"><a href="#指标" class="headerlink" title="指标"></a>指标</h3><ul><li><p>大反转信号后，非震荡行情是否都反转？</p></li><li><p>统计大周期下跌行情，指标的作用是否不同</p></li></ul><h3 id=""><a href="#" class="headerlink" title=""></a></h3><ul><li>月底搞事。参考统计结果。</li></ul><h3 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h3><ul><li><p>统计每个小时方向与全天方向对比</p></li><li><p>统计每个M15方向与全天方向对比</p></li><li><p>每天的最高价、次高价、最低价、次低价</p></li><li><p>每天早中晚各自的最高价、次高价、最低价、次低价</p></li></ul><h3 id="猜测待验证"><a href="#猜测待验证" class="headerlink" title="猜测待验证"></a>猜测待验证</h3><ul><li>预测后的形态编码</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;有趣的实验。&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<p>占据有利地位。最高点或次高点。</p><span id="more"></span><h2 id="交易方法"><a href="#交易方法" class="headerlink" title="交易方法"></a>交易方法</h2><h3 id="最高点"><a href="#最高点" class="headerlink" title="最高点"></a>最高点</h3><p><font color="#665048">动机</font>：不容易被打败。<br>跟踪对手。</p><p><font color="#665048">风险</font>：顺势做<br>风险中等。</p><p><font color="#665048">操作</font>：<br>一定要比对手优势。</p><p><font color="#665048">入场点</font>：<br>预测多次，进多次，最多3次。</p><p><font color="#665048">特征</font>：<br>后面补。<br>一般在盘初或盘尾入场。越打越弱。</p><h3 id="次高点"><a href="#次高点" class="headerlink" title="次高点"></a>次高点</h3><p><font color="#665048">动机</font>：<br>跟踪对手。</p><p><font color="#665048">风险</font>：顺势做<br>风险中等。</p><p><font color="#665048">操作</font>：<br>一定要比对手优势。</p><p><font color="#665048">入场点</font>：<br>最高点回落，破了支撑。<br>或者没进就找一个次要的。隔天操作更稳。</p><p><font color="#665048">特征</font>：<br>后面补。</p>]]></content>
     
     
+    <summary type="html">&lt;p&gt;占据有利地位。最高点或次高点。&lt;/p&gt;</summary>
     
     
-    <category term="统计" scheme="https://seefsi.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
     
-    <category term="预测" scheme="https://seefsi.github.io/tags/%E9%A2%84%E6%B5%8B/"/>
+    
+    <category term="交易方法" scheme="https://seefsi.github.io/tags/%E4%BA%A4%E6%98%93%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
@@ -229,6 +208,27 @@
     
     
     <summary type="html">&lt;p&gt;保留最好的盘感状态，记录每次赢利的感受。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="统计" scheme="https://seefsi.github.io/tags/%E7%BB%9F%E8%AE%A1/"/>
+    
+    <category term="预测" scheme="https://seefsi.github.io/tags/%E9%A2%84%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有趣的实验</title>
+    <link href="https://seefsi.github.io/2023/11/06/trade_predict_test/"/>
+    <id>https://seefsi.github.io/2023/11/06/trade_predict_test/</id>
+    <published>2023-11-06T10:00:00.000Z</published>
+    <updated>2023-11-10T13:30:31.053Z</updated>
+    
+    <content type="html"><![CDATA[<p>有趣的实验。</p><span id="more"></span><h2 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h2><h3 id="指标"><a href="#指标" class="headerlink" title="指标"></a>指标</h3><ul><li><p>大反转信号后，非震荡行情是否都反转？</p></li><li><p>统计大周期下跌行情，指标的作用是否不同</p></li></ul><h3 id=""><a href="#" class="headerlink" title=""></a></h3><ul><li>月底搞事。参考统计结果。</li></ul><h3 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h3><ul><li><p>统计每个小时方向与全天方向对比</p></li><li><p>统计每个M15方向与全天方向对比</p></li><li><p>每天的最高价、次高价、最低价、次低价</p></li><li><p>每天早中晚各自的最高价、次高价、最低价、次低价</p></li></ul><h3 id="猜测待验证"><a href="#猜测待验证" class="headerlink" title="猜测待验证"></a>猜测待验证</h3><ul><li>预测后的形态编码</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;有趣的实验。&lt;/p&gt;</summary>
     
     
     
@@ -278,25 +278,6 @@
   </entry>
   
   <entry>
-    <title>如何建立我的交易策略？</title>
-    <link href="https://seefsi.github.io/2023/11/02/trade_system_build/"/>
-    <id>https://seefsi.github.io/2023/11/02/trade_system_build/</id>
-    <published>2023-11-02T04:26:00.000Z</published>
-    <updated>2023-11-02T13:34:46.659Z</updated>
-    
-    <content type="html"><![CDATA[<p>你的交易策略是什么。</p><span id="more"></span><h2 id="你的交易策略是什么"><a href="#你的交易策略是什么" class="headerlink" title="你的交易策略是什么"></a>你的交易策略是什么</h2><p>本书下面将就交易策略进行更详尽的讨论，所以在此我只列出了几个应该考虑的问题：</p><p>3.你使用哪些系统设置判定入场时机？这些门槛的准确度是否达到50%以上？</p><p>4.你的入场信号是什么？</p><p>5.你如何评估交易潜在的收益风险比？</p><p>6.你可能遭受的最严重损失是多少？如何界定？</p><p>7.你会采取何种方法锁定获利？</p><p>8.你的系统收益期望值是多少？系统质量如何？在该系统中使用头寸调整策略实现目标的难度有多大？</p><p>你必须密切关注市场情况，以确保你的交易系统能够在当前市场类型中取得出色表现。如果没有适用的交易系统，那么唯一的选择就是避免在这类市场中进行交易。</p><h2 id="交易计划"><a href="#交易计划" class="headerlink" title="交易计划"></a>交易计划</h2><p>以下简单地列出了需要纳入交易计划的一些要点：</p><p>你的使命是什么？交易背后的真正动机是什么？</p><p>?你的目标和目的是什么？如果连目标都没有，达成目标便无从谈起。</p><p>?你对交易和市场的看法是什么？你交易的不是市场，而是自己对市场的看法。因此，最好确定自己到底持有哪些看法。</p><p>?影响全球市场的宏观环境是什么？你是否拥有能适应宏观环境的具体交易计划？</p><p>?你的交易策略是什么？收益期望值是多少？你通过哪些系统设置确定入场点位？你进入市场的信号是什么？你能够承受的最大损失是多少？如何确定它的大小？你采取什么方法获利？这种方法的收益期望值是多少？</p><p>?你的头寸调整策略是什么？</p><p>?你可能在计划执行过程中面临的主要心理问题有哪些？通过哪些心理调整方法来应对这些问题？</p><p>?你每天有哪些必做的功课？</p><p>?你的自我教育计划是什么？你计划如何不断提升自我能力？</p><p>?你的应急计划是什么？哪些地方可能出错？如何处理每一个出错的地方？</p><p>?你的收支预算计划是什么？这些计划是否切合实际？</p><p>还有哪些其他系统对你来说比较重要，你如何规划这些系统？例如，保持数据准确性的系统、向家人或客户阐述交易结果的系统、进行研究的系统、记录交易和财务的系统，等等。这些系统都非常重要。</p><h2 id="参考阅读"><a href="#参考阅读" class="headerlink" title="参考阅读"></a>参考阅读</h2><ul><li><p><a href="https://xnews.jin10.com/details/118409?id=118409">交易计划永远是塑造成功的关键要素 |《超级交易员》系列五</a></p></li><li><p><a href="https://xnews.jin10.com/details/118409?id=118409">交易计划</a></p></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;你的交易策略是什么。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="交易系统" scheme="https://seefsi.github.io/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我对市场的看法</title>
     <link href="https://seefsi.github.io/2023/11/02/trade_system_view/"/>
     <id>https://seefsi.github.io/2023/11/02/trade_system_view/</id>
@@ -316,18 +297,39 @@
   </entry>
   
   <entry>
-    <title>世界目标</title>
-    <link href="https://seefsi.github.io/2023/10/30/grow_future_world/"/>
-    <id>https://seefsi.github.io/2023/10/30/grow_future_world/</id>
+    <title>如何建立我的交易策略？</title>
+    <link href="https://seefsi.github.io/2023/11/02/trade_system_build/"/>
+    <id>https://seefsi.github.io/2023/11/02/trade_system_build/</id>
+    <published>2023-11-02T04:26:00.000Z</published>
+    <updated>2023-11-02T13:34:46.659Z</updated>
+    
+    <content type="html"><![CDATA[<p>你的交易策略是什么。</p><span id="more"></span><h2 id="你的交易策略是什么"><a href="#你的交易策略是什么" class="headerlink" title="你的交易策略是什么"></a>你的交易策略是什么</h2><p>本书下面将就交易策略进行更详尽的讨论，所以在此我只列出了几个应该考虑的问题：</p><p>3.你使用哪些系统设置判定入场时机？这些门槛的准确度是否达到50%以上？</p><p>4.你的入场信号是什么？</p><p>5.你如何评估交易潜在的收益风险比？</p><p>6.你可能遭受的最严重损失是多少？如何界定？</p><p>7.你会采取何种方法锁定获利？</p><p>8.你的系统收益期望值是多少？系统质量如何？在该系统中使用头寸调整策略实现目标的难度有多大？</p><p>你必须密切关注市场情况，以确保你的交易系统能够在当前市场类型中取得出色表现。如果没有适用的交易系统，那么唯一的选择就是避免在这类市场中进行交易。</p><h2 id="交易计划"><a href="#交易计划" class="headerlink" title="交易计划"></a>交易计划</h2><p>以下简单地列出了需要纳入交易计划的一些要点：</p><p>你的使命是什么？交易背后的真正动机是什么？</p><p>?你的目标和目的是什么？如果连目标都没有，达成目标便无从谈起。</p><p>?你对交易和市场的看法是什么？你交易的不是市场，而是自己对市场的看法。因此，最好确定自己到底持有哪些看法。</p><p>?影响全球市场的宏观环境是什么？你是否拥有能适应宏观环境的具体交易计划？</p><p>?你的交易策略是什么？收益期望值是多少？你通过哪些系统设置确定入场点位？你进入市场的信号是什么？你能够承受的最大损失是多少？如何确定它的大小？你采取什么方法获利？这种方法的收益期望值是多少？</p><p>?你的头寸调整策略是什么？</p><p>?你可能在计划执行过程中面临的主要心理问题有哪些？通过哪些心理调整方法来应对这些问题？</p><p>?你每天有哪些必做的功课？</p><p>?你的自我教育计划是什么？你计划如何不断提升自我能力？</p><p>?你的应急计划是什么？哪些地方可能出错？如何处理每一个出错的地方？</p><p>?你的收支预算计划是什么？这些计划是否切合实际？</p><p>还有哪些其他系统对你来说比较重要，你如何规划这些系统？例如，保持数据准确性的系统、向家人或客户阐述交易结果的系统、进行研究的系统、记录交易和财务的系统，等等。这些系统都非常重要。</p><h2 id="参考阅读"><a href="#参考阅读" class="headerlink" title="参考阅读"></a>参考阅读</h2><ul><li><p><a href="https://xnews.jin10.com/details/118409?id=118409">交易计划永远是塑造成功的关键要素 |《超级交易员》系列五</a></p></li><li><p><a href="https://xnews.jin10.com/details/118409?id=118409">交易计划</a></p></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;你的交易策略是什么。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="交易系统" scheme="https://seefsi.github.io/tags/%E4%BA%A4%E6%98%93%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未来目标</title>
+    <link href="https://seefsi.github.io/2023/10/30/grow_future/"/>
+    <id>https://seefsi.github.io/2023/10/30/grow_future/</id>
     <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-10-30T10:20:44.576Z</updated>
+    <updated>2023-11-10T20:09:56.105Z</updated>
     
-    <content type="html"><![CDATA[<p>世界目标。</p><span id="more"></span><h2 id="世界目标"><a href="#世界目标" class="headerlink" title="世界目标"></a>世界目标</h2><h3 id="生存环境"><a href="#生存环境" class="headerlink" title="生存环境"></a>生存环境</h3><p>精气神鬼，信争盗教：44组合16种，只取4种，其余舍弃。</p><ul><li><p>术精而来信：自由信奉，信得过。</p></li><li><p>财进而来争：争进者和，不配，不与配。要舍弃其他组合，如争神进者伤，争鬼进者短，争精进者肥。</p></li><li><p>苦神而来盗：盗神者光，不断吸收别人失败的经验。要舍弃其他组合，如盗气者机，盗鬼者幸，盗精者欺。舍弃之后，当不盗，不与盗。</p></li><li><p>命鬼而来教：施善教，透支努力，改变不容易改变的命运。施恶教，枉费努力，陷人于落魄。</p></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;世界目标。&lt;/p&gt;</summary>
+    <content type="html"><![CDATA[<p>当前有哪些目标未完成？先记录，有空再说。</p><span id="more"></span><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><h3 id="目标-1"><a href="#目标-1" class="headerlink" title="目标"></a>目标</h3><p>学习目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_learning"><font color="#6B4226">学习目标➬</font></a></p><p>交易目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_money"><font color="#6B4226">交易目标➬</font></a></p><p>世界目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_world"><font color="#6B4226">世界目标➬</font></a></p><p>人生如何过？</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_life"><font color="#6B4226">人生如何过？➬</font></a></p>]]></content>
     
     
+    <summary type="html">&lt;p&gt;当前有哪些目标未完成？先记录，有空再说。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="成长" scheme="https://seefsi.github.io/categories/%E6%88%90%E9%95%BF/"/>
     
     
     <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
@@ -373,27 +375,6 @@
   </entry>
   
   <entry>
-    <title>未来目标</title>
-    <link href="https://seefsi.github.io/2023/10/30/grow_future/"/>
-    <id>https://seefsi.github.io/2023/10/30/grow_future/</id>
-    <published>2023-10-30T10:00:00.000Z</published>
-    <updated>2023-11-10T20:09:56.105Z</updated>
-    
-    <content type="html"><![CDATA[<p>当前有哪些目标未完成？先记录，有空再说。</p><span id="more"></span><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><h3 id="目标-1"><a href="#目标-1" class="headerlink" title="目标"></a>目标</h3><p>学习目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_learning"><font color="#6B4226">学习目标➬</font></a></p><p>交易目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_money"><font color="#6B4226">交易目标➬</font></a></p><p>世界目标。</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_world"><font color="#6B4226">世界目标➬</font></a></p><p>人生如何过？</p><p><a href="https://seefsi.github.io/2023/10/30/grow_future_life"><font color="#6B4226">人生如何过？➬</font></a></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;当前有哪些目标未完成？先记录，有空再说。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="成长" scheme="https://seefsi.github.io/categories/%E6%88%90%E9%95%BF/"/>
-    
-    
-    <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
-    
-  </entry>
-  
-  <entry>
     <title>人生如何过？</title>
     <link href="https://seefsi.github.io/2023/10/30/grow_future_life/"/>
     <id>https://seefsi.github.io/2023/10/30/grow_future_life/</id>
@@ -404,6 +385,25 @@
     
     
     <summary type="html">&lt;p&gt;人生如何过？&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="目标" scheme="https://seefsi.github.io/tags/%E7%9B%AE%E6%A0%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>世界目标</title>
+    <link href="https://seefsi.github.io/2023/10/30/grow_future_world/"/>
+    <id>https://seefsi.github.io/2023/10/30/grow_future_world/</id>
+    <published>2023-10-30T10:00:00.000Z</published>
+    <updated>2023-10-30T10:20:44.576Z</updated>
+    
+    <content type="html"><![CDATA[<p>世界目标。</p><span id="more"></span><h2 id="世界目标"><a href="#世界目标" class="headerlink" title="世界目标"></a>世界目标</h2><h3 id="生存环境"><a href="#生存环境" class="headerlink" title="生存环境"></a>生存环境</h3><p>精气神鬼，信争盗教：44组合16种，只取4种，其余舍弃。</p><ul><li><p>术精而来信：自由信奉，信得过。</p></li><li><p>财进而来争：争进者和，不配，不与配。要舍弃其他组合，如争神进者伤，争鬼进者短，争精进者肥。</p></li><li><p>苦神而来盗：盗神者光，不断吸收别人失败的经验。要舍弃其他组合，如盗气者机，盗鬼者幸，盗精者欺。舍弃之后，当不盗，不与盗。</p></li><li><p>命鬼而来教：施善教，透支努力，改变不容易改变的命运。施恶教，枉费努力，陷人于落魄。</p></li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;世界目标。&lt;/p&gt;</summary>
     
     
     
