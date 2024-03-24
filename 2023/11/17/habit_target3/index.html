@@ -10,7 +10,7 @@
   
 
   
-  <meta name="description" content="累积做交易试验，统计哪种策略该重复和继续，哪种策略行不通。">
+  <meta name="description" content="遗志">
   
 
   
@@ -114,7 +114,7 @@
 
 <div id="toc" class="toc-article">
       <div class="toc-content">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E7%A8%8B%E5%BA%8F%E5%8C%96"><span class="toc-text">九、程序化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%86%E5%A4%87"><span class="toc-text">准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AA%E7%A1%AE%E5%AE%9A"><span class="toc-text">未确定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AF%8F%E5%91%A8%E6%97%B6%E9%97%B4%E5%88%86%E9%85%8D"><span class="toc-text">每周时间分配</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E8%AE%A1%E5%88%92"><span class="toc-text">基础计划</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E5%8D%95%E7%B1%BB%E5%9E%8B"><span class="toc-text">下单类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-text">说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%AD%E7%BA%BF%E7%B1%BB"><span class="toc-text">短线类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B6%8B%E5%8A%BF%E7%B1%BB"><span class="toc-text">趋势类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9C%87%E8%8D%A1%E8%B6%8B%E5%8A%BF%E7%B1%BB"><span class="toc-text">震荡趋势类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%B7%E6%A0%BC%E7%B1%BB"><span class="toc-text">价格类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E7%9C%8B%E5%A5%BD%E7%B1%BB"><span class="toc-text">不看好类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E7%B1%BB"><span class="toc-text">测试类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%86%E5%90%91%E7%B1%BB"><span class="toc-text">逆向类</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E7%A8%8B%E5%BA%8F%E5%8C%96"><span class="toc-text">九、程序化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%AA%E7%A1%AE%E5%AE%9A"><span class="toc-text">未确定</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%AF%8F%E5%91%A8%E6%97%B6%E9%97%B4%E5%88%86%E9%85%8D"><span class="toc-text">每周时间分配</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E8%AE%A1%E5%88%92"><span class="toc-text">基础计划</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E5%8D%95%E7%B1%BB%E5%9E%8B"><span class="toc-text">下单类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-text">说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9F%AD%E7%BA%BF%E7%B1%BB"><span class="toc-text">短线类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B6%8B%E5%8A%BF%E7%B1%BB"><span class="toc-text">趋势类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9C%87%E8%8D%A1%E8%B6%8B%E5%8A%BF%E7%B1%BB"><span class="toc-text">震荡趋势类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%B7%E6%A0%BC%E7%B1%BB"><span class="toc-text">价格类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8D%E7%9C%8B%E5%A5%BD%E7%B1%BB"><span class="toc-text">不看好类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E7%B1%BB"><span class="toc-text">测试类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%86%E5%90%91%E7%B1%BB"><span class="toc-text">逆向类</span></a></li></ol></li></ol>
       </div>
 </div>
 <style>
@@ -128,7 +128,7 @@
 
         <p>累积做交易试验，统计哪种策略该重复和继续，哪种策略行不通。</p>
 <span id="more"></span>
-<h2 id="九、程序化"><a href="#九、程序化" class="headerlink" title="九、程序化"></a>九、程序化</h2><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p><font color="#3232CD">千变万化</font>：程序化，不表示一成不变。<br>所以每次选择，都会备用一种反向方案。</p>
+<h2 id="九、程序化"><a href="#九、程序化" class="headerlink" title="九、程序化"></a>九、程序化</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p><font color="#3232CD">千变万化</font>：程序化，不表示一成不变。<br>所以每次选择，都会备用一种反向方案。</p>
 <p><font color="#3232CD">窥探</font>：总会保留一些人，让他们窥探不到。<br>如果谁都知道答案的情形，更要做风险方案。</p>
 <p><font color="#3232CD">感觉</font>：感觉来自行动，不可能有单纯的好感觉。<br>要有年感，每年把握20次+机会，才能翻一翻。</p>
 <h3 id="未确定"><a href="#未确定" class="headerlink" title="未确定"></a>未确定</h3><p><font color="#3232CD">策略未确定</font>：如果当天不确定用哪种策略，可每种策略各选一天，这样有助于成长。<br>如果用固定策略，可避免因策略不合适强迫交易。<br>如果水平太差，也可一周全用默认选项。</p>
