@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>EA参考 | 天绝无道</title>
+
+  
+  <meta name="author" content="seefsi">
+  
+
+  
+  <meta name="description" content="黑化">
+  
+
+  
+  <meta name="keywords" content="天道,精神">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="EA参考"/>
+
+  <meta property="og:site_name" content="天绝无道"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="天绝无道" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  
+  <link href="https://fonts.lug.ustc.edu.cn/css?family=Lato|Rubik" rel="stylesheet">
+  <script src="/js/pangu-407.min.js"></script>
+<meta name="generator" content="Hexo 7.2.0"></head>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    pangu.autoSpacingPage();
+  });
+</script>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">天绝无道</a>
+    </h1>
+    <p class="site-description">若让天道白活，不如贱人死光</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/categories">分类</a></li>
+      
+        <li><a href="/about">关于</a></li>
+      
+        <li><a href="/atom.xml">订阅</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>EA参考</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2023/11/06/attitude_predict_EA/" rel="bookmark">
+        <time class="entry-date published" datetime="2023-11-06T10:00:00.000Z">
+          2023-11-06
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        
+
+<script type="text/javascript">
+    function convertRemToPixels(rem) {    
+        return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+    }
+    window.onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > convertRemToPixels(40)) {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'visible';
+        } else {
+            document.getElementsByClassName('toc-article')[0].style.visibility = 'hidden';
+        }
+    }
+</script>
+
+
+<div id="toc" class="toc-article">
+      <div class="toc-content">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#EA%E5%8F%82%E8%80%83"><span class="toc-text">EA参考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-text">代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%B4%E6%98%8E"><span class="toc-text">说明</span></a></li></ol></li></ol>
+      </div>
+</div>
+<style>
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+
+
+        <p>EA参考。</p>
+<span id="more"></span>
+
+<h2 id="EA参考"><a href="#EA参考" class="headerlink" title="EA参考"></a>EA参考</h2><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//@version=5</span></span><br><span class="line">strategy(<span class="string">&quot;移动平均线策略&quot;</span>, overlay=<span class="literal">true</span>)</span><br><span class="line"></span><br><span class="line">lookback = <span class="number">66</span></span><br><span class="line">ema = ta.ema(close, lookback)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 进入长头寸和短头寸的条件</span></span><br><span class="line">enterLong = close &gt; ema and ta.crossover(ta.sma(close, <span class="number">15</span>), ema) and ta.crossover(close, ema)</span><br><span class="line">enterShort = close &lt; ema and ta.crossunder(ta.sma(close, <span class="number">15</span>), ema) and ta.crossunder(close, ema)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 保存止损相关的变量</span></span><br><span class="line">var <span class="type">bool</span> stopLossTriggered = <span class="literal">false</span></span><br><span class="line">var <span class="type">float</span> stopLossPrice = na</span><br><span class="line"></span><br><span class="line"><span class="comment">// 第二个K线翻转后立即触发止损</span></span><br><span class="line"><span class="keyword">if</span> (bar_index &gt;= <span class="number">2</span>)</span><br><span class="line">    <span class="keyword">if</span> (high[<span class="number">1</span>] &gt; high[<span class="number">2</span>] and low[<span class="number">1</span>] &lt; low[<span class="number">2</span>])</span><br><span class="line">        <span class="keyword">if</span> not stopLossTriggered</span><br><span class="line">            stopLossPrice := close</span><br><span class="line">            stopLossTriggered := <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 如果止损被触发，根据交易方向进行止损操作</span></span><br><span class="line"><span class="keyword">if</span> (stopLossTriggered)</span><br><span class="line">    <span class="keyword">if</span> (close &gt; stopLossPrice and not enterShort)</span><br><span class="line">        stopLossTriggered := <span class="literal">false</span></span><br><span class="line">        stopLossPrice := na</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (close &lt; stopLossPrice and not enterLong)</span><br><span class="line">        stopLossTriggered := <span class="literal">false</span></span><br><span class="line">        stopLossPrice := na</span><br><span class="line">        strategy.<span class="built_in">exit</span>(<span class="string">&quot;止损&quot;</span>, <span class="string">&quot;多头&quot;</span>, stop=stopLossPrice)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 进出场逻辑</span></span><br><span class="line"><span class="keyword">if</span> (enterLong)</span><br><span class="line">    strategy.entry(<span class="string">&quot;多头&quot;</span>, strategy.<span class="type">long</span>, <span class="number">100</span>)</span><br><span class="line">    strategy.<span class="built_in">exit</span>(<span class="string">&quot;离场&quot;</span>, <span class="string">&quot;多头&quot;</span>, profit=close, loss=<span class="number">30</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (enterShort)</span><br><span class="line">    strategy.entry(<span class="string">&quot;空头&quot;</span>, strategy.<span class="type">short</span>, <span class="number">100</span>)</span><br><span class="line">    strategy.<span class="built_in">exit</span>(<span class="string">&quot;离场&quot;</span>, <span class="string">&quot;空头&quot;</span>, profit=close, loss=<span class="number">30</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 利润保护和持仓时间检查</span></span><br><span class="line">var <span class="type">float</span> lowestLow = na</span><br><span class="line">var <span class="type">float</span> highestHigh = na</span><br><span class="line">var <span class="type">float</span> maxBars = <span class="number">15</span></span><br><span class="line">var <span class="type">float</span> barsInTrade = na</span><br><span class="line">var <span class="type">float</span> tradeProfit = na</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (strategy.opentrades &gt; <span class="number">0</span>)</span><br><span class="line">    <span class="keyword">for</span> i = <span class="number">0</span> to (strategy.opentrades - <span class="number">1</span>)</span><br><span class="line">        <span class="keyword">if</span> (strategy.opentrades.entry_price(i) &gt; <span class="number">0</span>)</span><br><span class="line">            tradeProfit := close - strategy.opentrades.entry_price(i)</span><br><span class="line">            <span class="keyword">if</span> na(barsInTrade)</span><br><span class="line">                barsInTrade := <span class="number">0</span></span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                barsInTrade := barsInTrade + <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> tradeProfit &gt;= <span class="number">30</span></span><br><span class="line">                <span class="keyword">if</span> enterLong</span><br><span class="line">                    <span class="keyword">if</span> na(lowestLow)</span><br><span class="line">                        lowestLow := ta.lowest(low, <span class="number">60</span>)</span><br><span class="line">                    stopLossPrice := lowestLow</span><br><span class="line">                    strategy.<span class="built_in">exit</span>(<span class="string">&quot;离场&quot;</span>, <span class="string">&quot;多头&quot;</span>, stop=stopLossPrice)</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    <span class="keyword">if</span> na(highestHigh)</span><br><span class="line">                        highestHigh := ta.highes</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//@版本为5</span></span><br><span class="line">战略“移动平均线策略”, 覆盖=<span class="literal">true</span></span><br><span class="line"></span><br><span class="line">回头看=<span class="number">66</span></span><br><span class="line">Ema=ta.ema（关闭，向后看）</span><br><span class="line"></span><br><span class="line"><span class="comment">// 进入长头寸和短头寸的条件</span></span><br><span class="line">进入长期=关闭》平均线和ta交叉（平均线（关闭，<span class="number">15</span>），平均线）和ta交叉（关闭，平均线）</span><br><span class="line">简写=关闭&lt;ema和ta交叉下入（ta sma（关闭，<span class="number">15</span>），ema）和ta交叉下入（关闭，ema）</span><br><span class="line"></span><br><span class="line"><span class="comment">// 保存止损相关的变量</span></span><br><span class="line">如果布尔停止丢失触发=假</span><br><span class="line">浮动止损损失价格=无</span><br><span class="line"></span><br><span class="line"><span class="comment">// 第二个K线翻转后立即触发止损</span></span><br><span class="line">如果（条形指数&gt;=<span class="number">2</span>）</span><br><span class="line">如果（高[<span class="number">1</span>]&gt;高[<span class="number">2</span>]和低[<span class="number">1</span>]&lt;低[<span class="number">2</span>])</span><br><span class="line">如果不停止输触发</span><br><span class="line">止损价格：=关闭</span><br><span class="line">止损触发：=真</span><br><span class="line"></span><br><span class="line"><span class="comment">// 如果止损被触发，根据交易方向进行止损操作</span></span><br><span class="line">如果（停止丢失触发）</span><br><span class="line">如果（关闭》停止损失价格，不输入做空）</span><br><span class="line">停止丢失触发：=假</span><br><span class="line">停止损失价格：=无</span><br><span class="line">否则（关闭《停止损失价格并不进入长期）</span><br><span class="line">停止丢失触发：=假</span><br><span class="line">停止损失价格：=无</span><br><span class="line">策略退出（“止损”，“多头”，止损=止损价格</span><br><span class="line"></span><br><span class="line"><span class="comment">// 进出场逻辑</span></span><br><span class="line">如果（输入长项）</span><br><span class="line">策略条目（“多头”, Strategy.<span class="type">long</span>，第<span class="number">100</span>页）</span><br><span class="line">策略退出（“离场”，“多头”，利润=收盘，亏损=<span class="number">30</span></span><br><span class="line"></span><br><span class="line">如果（输入短）</span><br><span class="line">策略条目（“空头”, Strategy.<span class="type">short</span>，第<span class="number">100</span>页）</span><br><span class="line">策略退出（“离场”，“空头”，利润=收盘，亏损=<span class="number">30</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 利润保护和持仓时间检查</span></span><br><span class="line">浮动值最低低=na</span><br><span class="line">var浮动最高高=na</span><br><span class="line">最大值等于<span class="number">15</span></span><br><span class="line">浮动价格指数=无</span><br><span class="line">浮动贸易利润=无</span><br><span class="line"></span><br><span class="line">如果（策略开放贸易》<span class="number">0</span>）</span><br><span class="line">对于i=<span class="number">0</span>到（战略开放交易<span class="number">-1</span>）</span><br><span class="line">如果（strategy.opentrades.entry_price（i）&gt;<span class="number">0</span>）</span><br><span class="line">交易利润：=收盘-策略。开市交易。进场_价格（i）</span><br><span class="line">如果没有（barsInTrade）</span><br><span class="line">贸易指数：=<span class="number">0</span></span><br><span class="line">其他的</span><br><span class="line">交易价格指数:=交易价格指数+<span class="number">1</span></span><br><span class="line">如果贸易利润&gt;=<span class="number">30</span></span><br><span class="line">如果进入长期</span><br><span class="line">如果那（最低低）</span><br><span class="line">最低的（最低，<span class="number">60</span>）</span><br><span class="line">止损价格：=最低最低</span><br><span class="line">策略退出（“离场”，“多头”，停止=停止损失价格</span><br><span class="line">其他的</span><br><span class="line">如果娜（最高高）</span><br><span class="line">最高的高度：</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/EA/">EA</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+
+
+	<section id="comment" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+
+	<script type="text/javascript">
+	var disqus_shortname = 'kidhaibara';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Deployed by <a href="https://github.com/kaedea/notion-down" target="_blank">notion-down</a> and
+    Theme by <a href="https://github.com/kaedea/hexo-theme-hacker" target="_blank">hexo-theme-hacker</a>
+    </br>
+    
+    &copy; 2024 seefsi
+    
+  </p>
+</footer>
+    
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'G-J38N5N288S', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+  </div>
+</div>
+</body>
+</html>
